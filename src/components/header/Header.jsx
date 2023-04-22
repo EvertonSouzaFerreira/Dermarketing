@@ -17,7 +17,7 @@ function Header() {
 
   const handleResize = () => {
     const width = window.innerWidth;
-    if (width <= 880) {
+    if (width <= 900) {
       setIsHamburgMenu(true);
       setMenuShow(false)
     } else {

@@ -6,15 +6,17 @@ import fundoPerto from '../../images/fundoPreto.jpg'
 export const ContainerHeader = styled.div`
     width: 100vw;
     height: 6vh;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #060606;
     color: white;
     padding: 32px 40px;
+    position: fixed;
     ul{
         display: flex;
-        gap: 1rem;
+        gap: 3rem;
         
         @media (max-width: 880px){
             flex-direction: column;
@@ -30,6 +32,7 @@ export const ContainerHeader = styled.div`
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
+            cursor: pointer;
             :hover{
             color: #F9F2B7;
         }
@@ -41,8 +44,10 @@ export const ContainerHeader = styled.div`
 
 export const MenuHamburg = styled.div`
     position: absolute;
+    
     z-index: 1;
-    top: 15px;
+    top: 50%;
+    transform: translate(-50%, -50%);
     right: 10px;
     color: white;
    
