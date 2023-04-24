@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { GrClose } from 'react-icons/gr';
+import { AiOutlineClose } from 'react-icons/ai';
 
 //img
 import logo from '../../images/logo-header.png'
@@ -39,11 +39,11 @@ function Header() {
   return (
     <ContainerHeader>
         <div><img src={logo} alt="" /></div>
-        {isHamburgMenu &&<MenuHamburg onClick={handleMenuShow}>{menuShow?<GrClose/>: <GiHamburgerMenu/>}</MenuHamburg>}
+        {isHamburgMenu &&<MenuHamburg onClick={handleMenuShow}>{menuShow?<AiOutlineClose/>: <GiHamburgerMenu/>}</MenuHamburg>}
         {menuShow &&<ul>
-            <li>Página inicial</li>
-            <li> Serviços</li>
-            <li>Agendar mentoria</li>
+            <li><a href="#">Página inicial</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li> <a href="#mentoria">Agendar mentoria</a> </li>
             <li>Clientes</li>
         </ul>}
 

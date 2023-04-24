@@ -4,26 +4,45 @@ import styled from "styled-components";
 import fundoDescricao from '../../images/fundoPreto.jpg'
 
 export const ContainerMain = styled.div`
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1.2fr;
+    grid-template-columns: 1.2fr 1fr;
     color: #F3F3F3;
+    background-image: url(${fundoDescricao});
     font-family: 'Source Sans 3', sans-serif;
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     img{
         width: 100%;
         height: 100%;
+
+        @media (max-width: 920px){
+            width: 100%;
+            height: 60%;
+        }
     }
+
     .container-descricao{
         display: flex;
         justify-items: center;
         align-items: center;
         padding: 107px 68px;
         background-image: url(${fundoDescricao});
+
+        @media (max-width: 920px){
+            padding: 10px;
+        }
     }
     .descricao{
-        max-width: 540px;
-        
+        max-width: 640px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 200%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -32,15 +51,27 @@ export const ContainerMain = styled.div`
             color:#EEC65F;
 
         }
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+        }
+
         button{
-            width: 192.93px;
+            width: 200px;
             height: 48.05px;
-            background: #9D7417;
+            background: #0E59F6;
             border: none;
             border-radius: 8px;
             color: #F3F3F3;
+            cursor: pointer;
+            font-family: 'Source Sans 3';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            
             :hover{
-                background: #785B19;
+                background: #2C66E4;
             }
         }
     }

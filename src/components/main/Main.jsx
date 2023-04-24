@@ -11,16 +11,18 @@ function Main() {
     <ContainerMain>
         <div className='container-descricao'>
             <div className='descricao'>
-            <h1>Trabalha na área da beleza? <br/>
-            <span>A Dermarketing pode te ajudar
+            <h1>Trabalha na área da beleza? 
+            <span>A Dermarketing<br/> pode te ajudar
                 a alcançar mais clientes.</span>
             </h1>
-            <p>Somos uma agência focada apenas em especialistas voltados para a área da estética, oferecemos um trabalho de excelência atraindo mais clientes para você.</p>
+            <p>Somos uma agência focada apenas em especialistas <br/> voltados para a área da estética,<b> oferecemos um trabalho de excelência atraindo mais clientes para você.</b></p>
             <button>Agendar mentoria</button>
             </div>
-            
         </div>
+        <div className='img'>
         <img src={imgWoman} alt="" />
+        </div>
+        
     </ContainerMain>
   )
 }

@@ -17,8 +17,8 @@ export const ContainerHeader = styled.div`
     ul{
         display: flex;
         gap: 3rem;
-        
-        @media (max-width: 880px){
+        position: relative;
+        @media (max-width: 920px){
             flex-direction: column;
             position: absolute;
             z-index: 1;
@@ -36,6 +36,17 @@ export const ContainerHeader = styled.div`
             :hover{
             color: #F9F2B7;
         }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:visited{
+            color: white;
+            :hover{
+            color: #F9F2B7;
+        }
+        }
         }
         
     }
@@ -44,15 +55,16 @@ export const ContainerHeader = styled.div`
 
 export const MenuHamburg = styled.div`
     position: absolute;
-    
-    z-index: 1;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 2;
     top: 50%;
     transform: translate(-50%, -50%);
-    right: 10px;
+    right: 20px;
     color: white;
    
     :hover{
-        color: #43D9AD;
+        color: #F9F2B7;
     }
 
 `

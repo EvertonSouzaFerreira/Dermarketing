@@ -5,6 +5,8 @@ import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import { createGlobalStyle } from "styled-components";
 import Cards from "./components/cards/Cards";
+import Grafico from "./components/grafico/Grafico";
+import Trabalhos from "./components/trabalhos/Trabalhos";
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -28,6 +30,8 @@ function App() {
       <Header />
       <Main />
       <Cards />
+      <Grafico />
+      <Trabalhos />
     </>
   );
 }

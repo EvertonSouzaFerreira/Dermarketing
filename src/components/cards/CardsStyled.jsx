@@ -27,11 +27,13 @@ to {
 
 export const ContainerCards = styled.div`
     display: flex;
+    
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
-    height: 94vh;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
     gap: 5rem;
     padding: 32px 40px;
     background: none;
@@ -39,14 +41,14 @@ export const ContainerCards = styled.div`
         display: flex;
         gap: 42px;
 
+        @media (max-width: 920px){
+            gap: .5rem;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
 
-        .card1{
-            
-            
-            }
-        .card2{
-            
-            }
     }
 
     .containerPergunta{
@@ -62,11 +64,14 @@ export const ContainerCards = styled.div`
             font-style: normal;
             font-weight: 400;
             font-size: 24px; 
-            background: none;
+            
+            @media (max-width: 920px){
+            width: 100%;
+            text-align: center;
         }
-    }
-
-    h3{
+            
+        }
+        h3{
         width: 100%;
         height: 64px;
         text-align: center;
@@ -82,20 +87,24 @@ export const ContainerCards = styled.div`
             text-decoration-color:#EEC65F;;
             font-weight: 600;
         }
+}
 
+        @media (max-width: 920px){
+        width: 100%;
         
-
-         }
-         
+        }
+       
+    }   
 `
 
 
 export const Card = styled.div`
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px 48px 48px;
-  gap: 8px;
+  justify-content: center;
+  padding: 16px 48px;
+  gap: 2px;
   width: 355px;
   height: 267px;
   cursor: pointer;
@@ -104,10 +113,10 @@ export const Card = styled.div`
   /* Sombra */
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.5s ease-in` : "none"};
+  animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.7s ease-in` : "none"};
 
   &.card2 {
-    animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.5s ease-in` : "none"};
+    animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.8s ease-in` : "none"};
     
   }
     
@@ -121,6 +130,7 @@ export const Card = styled.div`
         font-size: 24px;
         color: #EEC65F;
         background: none;
+        text-align: center;
     }
 
     p{
@@ -130,13 +140,17 @@ export const Card = styled.div`
         color: white;
         text-align: center;
         background: none;
-        
+        line-height: 150%;
     }
     :hover{
         background: #272727;
     }
 
-    
+    @media (max-width: 920px){
+        width: 355px;
+        height: 267px;
+        padding: 8px 24px;
+        }
     
 `
 
