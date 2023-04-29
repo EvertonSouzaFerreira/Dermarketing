@@ -26,6 +26,13 @@ function Cards() {
 
   return (
     <ContainerCards id='servicos'>
+
+
+        <div className='containerPergunta'>
+            <h3>Como a Dermarketing <span>pode ajudar você </span> <br/>
+            sua empresa? </h3>
+            
+        </div>
         <div className='cards'>
         <Card ref={ref} isInView={isInView} className='card1' >
             <h2>Alcance posições no google
@@ -61,11 +68,7 @@ function Cards() {
             <img src={pacientes} alt="" />
         </Card>
         </div>
-        <div className='containerPergunta'>
-        <h3>Você sabe <span>quantas pessoas estão buscando </span> <br/>
-            consultas com <span>sua especialidade?</span> </h3>
-            <p>Veja a média de pesquisas mensais para algumas especialidades da área de beleza:</p>
-        </div>
+        
         
     </ContainerCards>
     

@@ -42,9 +42,12 @@ function Header() {
         {isHamburgMenu &&<MenuHamburg onClick={handleMenuShow}>{menuShow?<AiOutlineClose/>: <GiHamburgerMenu/>}</MenuHamburg>}
         {menuShow &&<ul>
             <li><a href="#">Página inicial</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li> <a href="#mentoria">Agendar mentoria</a> </li>
-            <li>Clientes</li>
+            <li><a href="#servicos">Todos os serviços</a></li>
+            <li> <a href="#mentoria">Websites</a> </li>
+            <li> <a href="#Derma">Tráfego</a> </li>
+            <li> <a href="#divulgue">Branding</a> </li>
+            <button>Entrar em contato</button>
+            
         </ul>}
 
     </ContainerHeader>

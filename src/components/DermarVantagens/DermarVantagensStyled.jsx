@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { keyframes, css } from 'styled-components'
 
 
@@ -22,23 +23,23 @@ to {
 `;
 
 
-
-
-
-export const ContainerCards = styled.div`
-    display: flex;
-    
+export const ContainerDermaVantagens = styled.div`
+     display: flex;
+    color: #DFDFDF;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     max-width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
-    gap: 5rem;
+    /* height: 100vh; */
+    /* max-height: 100vh; */
+    gap: 2rem;
     padding: 32px 40px;
     background: none;
     .cards{
         display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+            justify-content: center;
         gap: 1rem;
 
         @media (max-width: 920px){
@@ -51,61 +52,51 @@ export const ContainerCards = styled.div`
 
     }
 
-    .containerPergunta{
+
+    .fundoTitulo{
         display: flex;
-        flex-direction: column;
-        gap: 3rem;
-        background: none;
+        width: 100%;
+        
+    }
+    
+    h5{
+        
         font-family: 'Source Sans 3';
-        p{
-            width: 856px;
-            height: 16px;
-            color: #E0DEDE;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 135%;
+        span{
+            color: #E4B528;
+        }
+    }
+
+    button{
+            width: 366px;
+            height: 42px;
+            background: #101010;
+            border: none;
+            border-radius: 24.3624px;
+            color: #DFDFDF;
+            cursor: pointer;
             font-family: 'Source Sans 3';
             font-style: normal;
             font-weight: 400;
-            font-size: 24px; 
-            
-            @media (max-width: 920px){
-            width: 100%;
-            text-align: center;
+            font-size: 18px;
+            border: 0.738255px solid #CCA42D;
+            :hover{
+                color: #CCA42D;
+            }
         }
-            
-        }
-        h3{
-        width: 100%;
-        height: 64px;
-        text-align: center;
-        font-family: 'Source Sans 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        color: #E0DEDE;
-        background: none;
-        span{
-            background: none;
-            
-            color:#EEC65F;;
-            font-weight: 600;
-        }
-}
-
-        @media (max-width: 920px){
-        width: 100%;
-        
-        }
-       
-    }   
 `
 
-
 export const Card = styled.div`
-  display: flex;
+    display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 16px 48px;
-  gap: 2px;
+  /* padding: 16px 48px; */
+  gap: .1px;
   width: 355px;
   height: 267px;
   cursor: pointer;
@@ -123,7 +114,7 @@ export const Card = styled.div`
     
     h2{
         width: 318px;
-        height: 75px;
+        /* height: 75px; */
         background: #121212;
         font-family: 'Source Sans 3';
         font-style: normal;
@@ -136,7 +127,7 @@ export const Card = styled.div`
 
     p{
         width: 220px;
-        height: 98px;
+        /* height: 98px; */
         background: #121212;
         color: white;
         text-align: center;
@@ -152,6 +143,4 @@ export const Card = styled.div`
         height: 267px;
         padding: 8px 24px;
         }
-    
 `
-

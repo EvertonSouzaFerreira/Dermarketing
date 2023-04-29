@@ -7,6 +7,12 @@ import { createGlobalStyle } from "styled-components";
 import Cards from "./components/cards/Cards";
 import Grafico from "./components/grafico/Grafico";
 import Trabalhos from "./components/trabalhos/Trabalhos";
+import Vantagens from "./components/vantagens/Vantagens";
+import Destaque from "./components/destaques/Destaque";
+import Identidade from "./components/identidade/Identidade";
+import Anuncio from "./components/anuncio/Anuncio";
+import DermarVantagens from "./components/DermarVantagens/DermarVantagens";
+import VamosComecar from "./components/vamosComecar/VamosComecar";
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -32,6 +38,12 @@ function App() {
       <Cards />
       <Grafico />
       <Trabalhos />
+      <Vantagens />
+      <Destaque />
+      <Identidade />
+      <Anuncio />
+      <DermarVantagens />
+      <VamosComecar />
     </>
   );
 }

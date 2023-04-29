@@ -4,7 +4,8 @@ import fundoPerto from '../../images/fundoPreto.jpg'
 
 
 export const ContainerHeader = styled.div`
-    width: 100vw;
+    max-width: 100vw;
+    min-width: 100vw;
     height: 6vh;
     position: relative;
     display: flex;
@@ -16,7 +17,8 @@ export const ContainerHeader = styled.div`
     position: fixed;
     ul{
         display: flex;
-        gap: 3rem;
+        gap: 1rem;
+        align-items: center;
         position: relative;
         @media (max-width: 920px){
             flex-direction: column;
@@ -27,6 +29,31 @@ export const ContainerHeader = styled.div`
             background: #060606;
             padding: 32px 40px;
         }
+        button{
+        width: 197px;
+        height: 43.39px;
+        font-family: 'Source Sans 3';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        padding: 10px 28px;
+        border: none;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        /* Branco */
+
+        color: #DFDFDF;
+        cursor: pointer;
+
+        /* Blue */
+
+        background: #0051FF;
+        border-radius: 21px;
+    }
         li{
             font-family: 'Montserrat', sans-serif;
             font-style: normal;

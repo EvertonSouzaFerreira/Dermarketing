@@ -18,8 +18,8 @@ export const ContainerMain = styled.div`
         align-items: center;
     }
     img{
-        width: 100%;
-        height: 100%;
+        width: 532px;
+        height: 617px;
 
         @media (max-width: 920px){
             width: 100%;
@@ -58,20 +58,20 @@ export const ContainerMain = styled.div`
         }
 
         button{
-            width: 200px;
-            height: 48.05px;
-            background: #0E59F6;
+            width: 366px;
+            height: 52px;
+            background: #101010;
             border: none;
-            border-radius: 8px;
+            border-radius: 24.3624px;
             color: #F3F3F3;
             cursor: pointer;
             font-family: 'Source Sans 3';
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
-            
+            border: 0.738255px solid #CCA42D;
             :hover{
-                background: #2C66E4;
+                color: #CCA42D;
             }
         }
     }

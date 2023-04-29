@@ -16,7 +16,7 @@ function Main() {
                 a alcançar mais clientes.</span>
             </h1>
             <p>Somos uma agência focada apenas em especialistas <br/> voltados para a área da estética,<b> oferecemos um trabalho de excelência atraindo mais clientes para você.</b></p>
-            <button>Agendar mentoria</button>
+            <button>Quero aumentar meus pacientes</button>
             </div>
         </div>
         <div className='img'>
