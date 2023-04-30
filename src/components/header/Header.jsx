@@ -4,7 +4,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 //img
 import logo from '../../images/logo-header.png'
-
+import SiglaLogo from '../../images/SiglaLogo.png'
 
 //styled
 import { ContainerHeader, MenuHamburg } from './HeaderStyled'
@@ -13,10 +13,17 @@ function Header() {
 
   const [isHamburgMenu, setIsHamburgMenu] = useState(false);
   const [menuShow, setMenuShow] = useState(false);
-
+  const [width, setWidth] = useState(false)
 
   const handleResize = () => {
     const width = window.innerWidth;
+    if (width <= '900px') {
+      setWidth(true)
+    } else {
+      setWidth(false)
+    }
+
+
     if (width <= 900) {
       setIsHamburgMenu(true);
       setMenuShow(false)
@@ -38,7 +45,7 @@ function Header() {
 
   return (
     <ContainerHeader>
-        <div><img src={logo} alt="" /></div>
+        <div><img src={width? SiglaLogo: logo} alt="" /></div>
         {isHamburgMenu &&<MenuHamburg onClick={handleMenuShow}>{menuShow?<AiOutlineClose/>: <GiHamburgerMenu/>}</MenuHamburg>}
         {menuShow &&<ul>
             <li><a href="#">Página inicial</a></li>

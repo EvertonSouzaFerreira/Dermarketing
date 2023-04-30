@@ -27,7 +27,7 @@ to {
 
 export const ContainerCards = styled.div`
     display: flex;
-    
+    background: #EEC65F;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -37,6 +37,16 @@ export const ContainerCards = styled.div`
     gap: 5rem;
     padding: 32px 40px;
     background: none;
+
+    @media (max-width: 768px){
+            width: 100%;
+            
+            margin-top: 4rem;
+            gap: 2rem;
+            
+            
+        }
+
     .cards{
         display: flex;
         gap: 1rem;
@@ -46,8 +56,10 @@ export const ContainerCards = styled.div`
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            height: 100%;
+            /* height: 100%; */
         }
+
+        
 
     }
 
@@ -55,8 +67,9 @@ export const ContainerCards = styled.div`
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        background: none;
+     
         font-family: 'Source Sans 3';
+        
         p{
             width: 856px;
             height: 16px;
@@ -87,6 +100,11 @@ export const ContainerCards = styled.div`
             
             color:#EEC65F;;
             font-weight: 600;
+        }
+        @media (max-width: 768px){
+        
+        font-size: 22px;
+        
         }
 }
 

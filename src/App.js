@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body{
     background: linear-gradient(180deg, #0E0E0E 0%, #060606 100%);
+    width: 100vw;
   }
 `;
 
@@ -36,14 +37,14 @@ function App() {
       <Header />
       <Main />
       <Cards />
-      <Grafico />
+      {/* <Grafico />
       <Trabalhos />
       <Vantagens />
       <Destaque />
       <Identidade />
       <Anuncio />
       <DermarVantagens />
-      <VamosComecar />
+      <VamosComecar /> */}
     </>
   );
 }

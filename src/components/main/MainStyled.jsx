@@ -4,13 +4,21 @@ import styled from "styled-components";
 import fundoDescricao from '../../images/fundoPreto.jpg'
 
 export const ContainerMain = styled.div`
-    max-width: 100vw;
+    width: 100%;
     height: 100vh;
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     color: #F3F3F3;
     background-image: url(${fundoDescricao});
     font-family: 'Source Sans 3', sans-serif;
+    @media (max-width: 768px){
+            width: 100%;
+            height: 100%;
+            padding-top: 5rem;
+            display: flex;
+            
+            
+        }
     
     .img{
         display: flex;
@@ -24,7 +32,11 @@ export const ContainerMain = styled.div`
         @media (max-width: 920px){
             width: 100%;
             height: 60%;
+            align-content: center;
+            justify-items: center;
         }
+
+       
     }
 
     .container-descricao{
@@ -32,21 +44,41 @@ export const ContainerMain = styled.div`
         justify-items: center;
         align-items: center;
         padding: 107px 68px;
-        background-image: url(${fundoDescricao});
+        /* background-image: url(${fundoDescricao}); */
 
         @media (max-width: 920px){
             padding: 10px;
         }
+
+        @media (max-width: 768px){
+            width: 100%;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 125%;
+            /* or 25px */
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
     }
     .descricao{
         max-width: 640px;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 28px;
         line-height: 200%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
 
+        @media (max-width: 768px){
+            font-size: 12px;
+            gap: 2rem;
+            
+        }
+        
         span{
             color:#EEC65F;
 
@@ -55,6 +87,12 @@ export const ContainerMain = styled.div`
             font-weight: 400;
             font-size: 20px;
             line-height: 150%;
+
+            @media (max-width: 768px){
+            font-size: 11px;
+            max-width: 279px;
+            margin: auto;
+        }
         }
 
         button{
@@ -73,6 +111,33 @@ export const ContainerMain = styled.div`
             :hover{
                 color: #CCA42D;
             }
+
+            @media (max-width: 768px){
+            margin: auto;
+            width: 207px;
+            height: 43.39px;
+            font-family: 'Source Sans 3';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 26px;
+            padding: 10px 28px;
+            border: none;
+            /* identical to box height */
+
+            display: flex;
+            align-items: center;
+
+            /* Branco */
+
+            color: #DFDFDF;
+            cursor: pointer;
+
+            /* Blue */
+
+            background: #0051FF;
+            border-radius: 21px;
+        }
         }
     }
 `
