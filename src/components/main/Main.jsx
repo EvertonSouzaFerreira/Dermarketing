@@ -12,7 +12,7 @@ function Main() {
 
   const handleResize = () => {
     const width = window.innerWidth;
-    if (width <= '768px') {
+    if (width <= 768) {
       setWidth(true)
     } else {
       setWidth(false)
@@ -40,7 +40,7 @@ function Main() {
             <button>Quero mais pacientes</button>
             </div>
         </div>
-        {width && <div className='img'>
+        {!width && <div className='img'>
         <img src={imgWoman} alt="" />
         </div>}
         

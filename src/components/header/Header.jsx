@@ -17,7 +17,7 @@ function Header() {
 
   const handleResize = () => {
     const width = window.innerWidth;
-    if (width <= '900px') {
+    if (width <= 900) {
       setWidth(true)
     } else {
       setWidth(false)

@@ -27,7 +27,7 @@ to {
 
 export const ContainerCards = styled.div`
     display: flex;
-    background: #EEC65F;
+    
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -36,12 +36,12 @@ export const ContainerCards = styled.div`
     max-height: 100vh;
     gap: 5rem;
     padding: 32px 40px;
-    background: none;
+   
 
     @media (max-width: 768px){
             width: 100%;
-            
-            margin-top: 4rem;
+           
+            margin-top: 5rem;
             gap: 2rem;
             
             
@@ -52,10 +52,12 @@ export const ContainerCards = styled.div`
         gap: 1rem;
 
         @media (max-width: 920px){
+            width: 100%;
             gap: .5rem;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+            padding:0;
             /* height: 100%; */
         }
 
@@ -69,6 +71,11 @@ export const ContainerCards = styled.div`
         gap: 3rem;
      
         font-family: 'Source Sans 3';
+        @media (max-width: 768px){
+        
+        gap: 1rem;
+        
+        }
         
         p{
             width: 856px;
@@ -82,6 +89,12 @@ export const ContainerCards = styled.div`
             @media (max-width: 920px){
             width: 100%;
             text-align: center;
+
+            @media (max-width: 768px){
+        
+              font-size: 16px;
+              
+              }
         }
             
         }
@@ -138,6 +151,13 @@ export const Card = styled.div`
     animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.8s ease-in` : "none"};
     
   }
+
+  @media (max-width: 768px){
+        width: 100%;
+        height: 290px;
+        gap: 1px;
+        justify-content: space-between;
+        }
     
     h2{
         width: 318px;
@@ -150,6 +170,11 @@ export const Card = styled.div`
         color: #EEC65F;
         background: none;
         text-align: center;
+        @media (max-width: 768px){
+        
+        font-size: 20px;
+        
+        }
     }
 
     p{
@@ -160,9 +185,19 @@ export const Card = styled.div`
         text-align: center;
         background: none;
         line-height: 150%;
+        @media (max-width: 768px){
+        
+        font-size: 16px;
+        
+        }
     }
     :hover{
         background: #272727;
+    }
+
+    img{
+      width: 70px;
+      height: 60px;
     }
 
     @media (max-width: 920px){

@@ -30,18 +30,6 @@ function Grafico() {
         </GraficoImg>
         </div>
         
-        {/* <GraficoImg>
-            <img src={grafico} alt="" />
-            <h3>DERMATOLOGIA</h3>
-            <p>Média de pesquisas SEMANALMENTE e MENSALMENTE</p>
-            <h4>100 mil - 1 Milhão</h4>
-        </GraficoImg>
-        <GraficoImg>
-            <img src={grafico} alt="" />
-            <h3>DERMATOLOGIA</h3>
-            <p>Média de pesquisas SEMANALMENTE e MENSALMENTE</p>
-            <h4>100 mil - 1 Milhão</h4>
-        </GraficoImg> */}
 
     </ContainerGraficos>
   )

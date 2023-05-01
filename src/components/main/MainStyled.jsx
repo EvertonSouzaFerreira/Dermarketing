@@ -61,7 +61,7 @@ export const ContainerMain = styled.div`
             align-items: center;
             justify-content: center;
             text-align: center;
-            
+          
         }
     }
     .descricao{
@@ -75,7 +75,7 @@ export const ContainerMain = styled.div`
 
         @media (max-width: 768px){
             font-size: 12px;
-            gap: 2rem;
+            gap: 3rem;
             
         }
         
@@ -123,6 +123,7 @@ export const ContainerMain = styled.div`
             line-height: 26px;
             padding: 10px 28px;
             border: none;
+          
             /* identical to box height */
 
             display: flex;

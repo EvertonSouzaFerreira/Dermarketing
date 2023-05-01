@@ -37,8 +37,8 @@ function App() {
       <Header />
       <Main />
       <Cards />
-      {/* <Grafico />
-      <Trabalhos />
+      <Grafico />
+      {/* <Trabalhos />
       <Vantagens />
       <Destaque />
       <Identidade />
