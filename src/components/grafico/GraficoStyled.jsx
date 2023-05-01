@@ -11,8 +11,11 @@ export const ContainerGraficos = styled.div`
     max-width: 100vw;
     height: 100vh;
     @media (max-width: 720px){
+            padding: 1rem;
             height: fit-content;
-            margin-top: 6rem;
+            margin-top: 10rem;
+            /* background-color: red; */
+            border: solid 5px red;
         }
 
         .containerPergunta{
@@ -106,7 +109,7 @@ export const GraficoImg = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 400.21px;
+    width: 400px;
     height: 212px;
     /* width: 100%; */
     /* height: 90%; */
@@ -114,10 +117,11 @@ export const GraficoImg = styled.div`
     gap: .5rem;
    /* background-color: #EEC65F; */
    @media (max-width: 720px){
-            width: 346.74px;
-            height: 147.84px; 
-            padding: 8.5089px;
-            gap: 17.02px;
+            width: 346px;
+            height: fit-content; 
+            padding: 8px;
+            gap: 17px;
+            
         }
     
     img{

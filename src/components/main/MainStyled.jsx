@@ -13,11 +13,12 @@ export const ContainerMain = styled.div`
     font-family: 'Source Sans 3', sans-serif;
     @media (max-width: 768px){
             width: 100%;
-            height: 100%;
+            height: fit-content;
             padding-top: 5rem;
             display: flex;
             margin-bottom: 5rem;
-            height: fit-content;
+            
+            border: solid 5px yellow;
         }
     
     .img{

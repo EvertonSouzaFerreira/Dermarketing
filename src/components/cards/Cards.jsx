@@ -31,7 +31,6 @@ function Cards() {
         <div className='containerPergunta'>
             <h3>Como a Dermarketing <span>pode ajudar você </span>
             sua empresa? </h3>
-            
         </div>
         <div className='cards'>
         <Card ref={ref} isInView={isInView} className='card1' >

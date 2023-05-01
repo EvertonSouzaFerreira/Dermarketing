@@ -15,9 +15,11 @@ export const ContainerVantagens = styled.div`
             margin-top: 10rem;
             flex-wrap: wrap;
             justify-content: center;
-            align-items: flex-start;
-            
-            margin-bottom: 5rem;
+            align-items: center;
+            gap: .5rem;
+            /* margin-bottom: 5rem; */
+
+            border: solid 3px red;
         }
 
     .containerBtnTitulo{
@@ -31,9 +33,11 @@ export const ContainerVantagens = styled.div`
         /* background-color: red; */
 
         @media (max-width: 768px){
-            height: 0;
-            margin-bottom: 5rem;
-            gap: 3rem;
+            height: fit-content;
+            
+            gap: 1rem;
+            border: solid 3px red;
+
         }
     }
 
@@ -95,11 +99,11 @@ export const ContainerVantagens = styled.div`
 
             @media (max-width: 768px){
                 width: 290px;
-                height: 334.22px;
+                height: 334px;
                 align-items: center;
                 padding: 0px;
                 gap: 1rem;
-
+                border: solid 3px blue;
         }
 
             li{

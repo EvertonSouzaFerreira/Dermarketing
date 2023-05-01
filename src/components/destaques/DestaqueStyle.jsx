@@ -28,10 +28,23 @@ export const ContainerDestaques = styled.div`
     flex-direction: column;
     max-width: 100vw;
     height: 100vh;
-    height: 100vh;
     gap: 5rem;
     padding: 32px 40px;
     background: none;
+
+    @media (max-width: 768px){
+            
+            height: fit-content;
+            margin-top: 10rem;
+            
+            justify-content: center;
+            align-items: center;
+            
+            margin-bottom: 5rem;
+
+            border: solid 3px red;
+    }
+
     .cards{
         display: flex;
         gap: 1rem;
@@ -43,6 +56,7 @@ export const ContainerDestaques = styled.div`
             justify-content: center;
             padding: 0px;
             height: fit-content;
+            
         }
     }
 
