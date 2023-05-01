@@ -11,7 +11,7 @@ export const ContainerGraficos = styled.div`
     max-width: 100vw;
     height: 100vh;
     @media (max-width: 720px){
-            
+            height: fit-content;
             margin-top: 6rem;
         }
 

@@ -12,7 +12,7 @@ export const ContainerTrabalhos = styled.div`
     gap: 4rem;
 
     @media (max-width: 720px){
-            
+            height: fit-content;
             margin-top: 6rem;
             gap: 1rem;
         }

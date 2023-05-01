@@ -42,6 +42,7 @@ export const ContainerDestaques = styled.div`
             align-items: center;
             justify-content: center;
             padding: 0px;
+            height: fit-content;
         }
     }
 
@@ -54,7 +55,7 @@ export const ContainerDestaques = styled.div`
             align-items: center;
             
             img{
-              width: 368px;
+              width: 320px;
               height: 48px;
             }
             
@@ -113,7 +114,7 @@ export const Card = styled.div`
       gap: 1px;
 
       width: 294px;
-      height: 253px;
+      height: 293px;
       }
 
     

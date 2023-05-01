@@ -40,7 +40,7 @@ export const ContainerCards = styled.div`
 
     @media (max-width: 768px){
             width: 100%;
-           
+            height: fit-content;
             margin-top: 5rem;
             gap: 2rem;
             margin-bottom: 5rem;

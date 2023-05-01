@@ -113,7 +113,7 @@ export const ContainerVantagens = styled.div`
                 color: #FFFFFF;
 
                 @media (max-width: 768px){
-                width: 258px;
+                width: 268px;
                 height: 41px;
                 justify-content: space-between;
                 

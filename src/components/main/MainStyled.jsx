@@ -17,7 +17,7 @@ export const ContainerMain = styled.div`
             padding-top: 5rem;
             display: flex;
             margin-bottom: 5rem;
-            
+            height: fit-content;
         }
     
     .img{
