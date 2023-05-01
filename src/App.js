@@ -40,8 +40,8 @@ function App() {
       <Grafico />
       <Trabalhos />
       <Vantagens />
-      {/* <Destaque />
-      <Identidade />
+      <Destaque />
+      {/* <Identidade />
       <Anuncio />
       <DermarVantagens />
       <VamosComecar /> */}

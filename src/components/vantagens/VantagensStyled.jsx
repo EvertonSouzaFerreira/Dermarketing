@@ -11,12 +11,13 @@ export const ContainerVantagens = styled.div`
 
 
     @media (max-width: 768px){
-            height: 0;
+            height: fit-content;
             margin-top: 10rem;
             flex-wrap: wrap;
             justify-content: center;
             align-items: flex-start;
-            background-color: #DFDFDF;
+            
+            margin-bottom: 5rem;
         }
 
     .containerBtnTitulo{

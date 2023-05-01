@@ -26,10 +26,8 @@ function Destaque() {
   return (
     <ContainerDestaques>
         <div className='fundoTitulo'>
-                <img src={fundoTitulo} alt="" />
-            <h4>O que faz<span> nossos<br/> sites se destacarem:</span> </h4>
-            
-                    
+            <img src={fundoTitulo} alt="" />
+            <h4>O que faz<span> nossos sites se destacarem:</span> </h4>          
         </div>
 
         <div className='cards'>

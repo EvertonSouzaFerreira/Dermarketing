@@ -37,17 +37,28 @@ export const ContainerDestaques = styled.div`
         gap: 1rem;
         
         @media (max-width: 920px){
-            gap: .5rem;
+            gap: 3rem;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            height: 100%;
+            padding: 0px;
         }
     }
 
     .fundoTitulo{
         display: flex;
         width: 100%;
+
+        @media (max-width: 768px){
+            width: 100vw;
+            align-items: center;
+            
+            img{
+              width: 368px;
+              height: 48px;
+            }
+            
+        }
         
     }
     
@@ -59,6 +70,14 @@ export const ContainerDestaques = styled.div`
         font-size: 32px;
         span{
             color: #E4B528;
+        }
+
+        @media (max-width: 768px){
+          width: 178px;
+          height: 40px;
+          font-size: 15px;
+          line-height: 135%;
+          
         }
     }
 `
@@ -85,6 +104,18 @@ export const Card = styled.div`
     animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.8s ease-in` : "none"};
     
   }
+
+  @media (max-width: 920px){
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 13px 39px 39px;
+      gap: 1px;
+
+      width: 294px;
+      height: 253px;
+      }
+
     
     h2{
         width: 318px;
@@ -96,6 +127,13 @@ export const Card = styled.div`
         font-size: 24px;
         color: #DCDBDB;
         
+        @media (max-width: 920px){
+          width: 263px;
+          height: 62px;
+          font-size: 19px;
+          line-height: 120%;
+          margin: 0;
+        }
         
     }
 
@@ -107,15 +145,18 @@ export const Card = styled.div`
         
         background: none;
         line-height: 150%;
+
+        @media (max-width: 920px){
+          width: 263.36px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+        }
     }
     :hover{
         background: #272727;
     }
 
-    @media (max-width: 920px){
-        width: 355px;
-        height: 267px;
-        padding: 8px 24px;
-        }
+    
     
 `
