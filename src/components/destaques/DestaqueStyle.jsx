@@ -42,7 +42,7 @@ export const ContainerDestaques = styled.div`
             
             margin-bottom: 5rem;
 
-            border: solid 3px red;
+            /* border: solid 3px red; */
     }
 
     .cards{
@@ -69,7 +69,7 @@ export const ContainerDestaques = styled.div`
             align-items: center;
             
             img{
-              width: 320px;
+              width: 300px;
               height: 48px;
             }
             

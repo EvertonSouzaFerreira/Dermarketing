@@ -15,7 +15,7 @@ export const ContainerTrabalhos = styled.div`
             height: fit-content;
             margin-top: 6rem;
             gap: 1rem;
-            border: solid 3px red;
+            /* border: solid 3px red; */
         }
 
     .fundoTitulo{

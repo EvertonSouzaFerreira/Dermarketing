@@ -15,7 +15,7 @@ export const ContainerGraficos = styled.div`
             height: fit-content;
             margin-top: 10rem;
             /* background-color: red; */
-            border: solid 5px red;
+            /* border: solid 5px red; */
         }
 
         .containerPergunta{

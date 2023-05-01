@@ -19,7 +19,7 @@ export const ContainerVantagens = styled.div`
             gap: .5rem;
             /* margin-bottom: 5rem; */
 
-            border: solid 3px red;
+            /* border: solid 3px red; */
         }
 
     .containerBtnTitulo{
@@ -36,7 +36,7 @@ export const ContainerVantagens = styled.div`
             height: fit-content;
             
             gap: 1rem;
-            border: solid 3px red;
+            /* border: solid 3px red; */
 
         }
     }
@@ -103,7 +103,7 @@ export const ContainerVantagens = styled.div`
                 align-items: center;
                 padding: 0px;
                 gap: 1rem;
-                border: solid 3px blue;
+                /* border: solid 3px blue; */
         }
 
             li{

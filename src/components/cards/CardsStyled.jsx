@@ -33,20 +33,22 @@ export const ContainerCards = styled.div`
     flex-direction: column;
     max-width: 100vw;
     height: 100vh;
-    max-height: 100vh;
+    height: 100vh;
     gap: 5rem;
     padding: 32px 40px;
+    
    
 
     @media (max-width: 768px){
-            width: 100%;
-            height: fit-content;
+      height: fit-content;
+            margin-top: 10rem;
             
-            gap: .5rem;
-            /* margin-bottom: 5rem; */
-            padding: 1rem;
-            justify-content: flex-start;
-            border: solid 5px red;
+            justify-content: center;
+            align-items: center;
+            
+            margin-bottom: 5rem;
+
+            /* border: solid 3px red; */
         }
 
     .cards{

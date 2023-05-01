@@ -18,7 +18,7 @@ export const ContainerMain = styled.div`
             display: flex;
             margin-bottom: 5rem;
             
-            border: solid 5px yellow;
+            /* border: solid 5px yellow; */
         }
     
     .img{
