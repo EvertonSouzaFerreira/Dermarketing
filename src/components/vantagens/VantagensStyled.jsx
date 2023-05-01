@@ -8,6 +8,17 @@ export const ContainerVantagens = styled.div`
     align-items: center;
     justify-content: space-around;
     /* background: blue; */
+
+
+    @media (max-width: 768px){
+            height: 0;
+            margin-top: 10rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: #DFDFDF;
+        }
+
     .containerBtnTitulo{
         display: flex;
         width: 492px;
@@ -17,6 +28,12 @@ export const ContainerVantagens = styled.div`
         justify-content: center;
         gap: .5rem;
         /* background-color: red; */
+
+        @media (max-width: 768px){
+            height: 0;
+            margin-bottom: 5rem;
+            gap: 3rem;
+        }
     }
 
     h4{
@@ -30,6 +47,13 @@ export const ContainerVantagens = styled.div`
         span{
             color: #E4B528;
         }
+        @media (max-width: 768px){
+            width: 362px;
+            height: 50px;
+            font-size: 20px;
+            line-height: 125%;
+            text-align: center;
+        }
     }
 
     button{
@@ -37,7 +61,7 @@ export const ContainerVantagens = styled.div`
             height: 42px;
             background: #101010;
             border: none;
-            border-radius: 24.3624px;
+            border-radius: 24px;
             color: #DFDFDF;
             cursor: pointer;
             font-family: 'Source Sans 3';
@@ -48,6 +72,14 @@ export const ContainerVantagens = styled.div`
             :hover{
                 color: #CCA42D;
             }
+
+            @media (max-width: 768px){
+                width: 269.29px;
+                height: 38.26px;
+                padding: 0px 5px;
+                border-radius: 17px;
+
+        }
         }
 
         ul{
@@ -60,6 +92,14 @@ export const ContainerVantagens = styled.div`
             /* background-color: #CCA42D; */
             gap: 2.5rem;
 
+            @media (max-width: 768px){
+                width: 290px;
+                height: 334.22px;
+                align-items: center;
+                padding: 0px;
+                gap: 1rem;
+
+        }
 
             li{
                 display: flex;
@@ -71,13 +111,33 @@ export const ContainerVantagens = styled.div`
                 border-radius: 44.1969px;
                 color: #FFFFFF;
 
-                span{
-                    display: flex;
-                    
+                @media (max-width: 768px){
+                width: 258px;
+                height: 41px;
+                justify-content: space-between;
+                
+                gap: .5px;
+
+                }
+
+               
                     img{
                         height: 93px;
+                        @media (max-width: 768px){
+                                width: 50px;
+                                height: 50px;
+                                
+                            }
                     }
-                }
+                
+                    p{
+                        width: 171px;
+                        height: 21px;
+                        font-size: 14px;
+                        line-height: 125%;
+                        
+                    }
+                
             }
         }
 

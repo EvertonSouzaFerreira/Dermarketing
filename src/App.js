@@ -39,8 +39,8 @@ function App() {
       <Cards />
       <Grafico />
       <Trabalhos />
-      {/* <Vantagens />
-      <Destaque />
+      <Vantagens />
+      {/* <Destaque />
       <Identidade />
       <Anuncio />
       <DermarVantagens />

@@ -62,6 +62,7 @@ export const ContainerCardsTrabalhos = styled.div`
     @media (max-width: 720px){
             flex-wrap: wrap;
             gap: 5rem;
+            
         }
     
     img{
@@ -77,7 +78,13 @@ export const ContainerCardsTrabalhos = styled.div`
     .containerCardTrabalho{
         max-width: 375px;
         text-align: center;
-    
+        
+        @media (max-width: 720px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
         h5{
             font-family: 'Source Sans 3';
             font-style: normal;
@@ -90,6 +97,7 @@ export const ContainerCardsTrabalhos = styled.div`
                 width: 347px;
                 height: 22px;
                 font-size: 18px;
+                
         }
         }
 
@@ -104,6 +112,7 @@ export const ContainerCardsTrabalhos = styled.div`
                 width: 313.33px;
                 height: 80px;
                 font-size: 13px;
+                
         }
 
         }

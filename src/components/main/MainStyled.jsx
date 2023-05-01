@@ -16,7 +16,7 @@ export const ContainerMain = styled.div`
             height: 100%;
             padding-top: 5rem;
             display: flex;
-            
+            margin-bottom: 5rem;
             
         }
     

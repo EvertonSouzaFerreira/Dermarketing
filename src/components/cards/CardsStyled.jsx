@@ -43,7 +43,7 @@ export const ContainerCards = styled.div`
            
             margin-top: 5rem;
             gap: 2rem;
-            
+            margin-bottom: 5rem;
             
         }
 
@@ -53,7 +53,7 @@ export const ContainerCards = styled.div`
 
         @media (max-width: 920px){
             width: 100%;
-            gap: .5rem;
+            
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
