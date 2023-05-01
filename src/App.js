@@ -38,8 +38,8 @@ function App() {
       <Main />
       <Cards />
       <Grafico />
-      {/* <Trabalhos />
-      <Vantagens />
+      <Trabalhos />
+      {/* <Vantagens />
       <Destaque />
       <Identidade />
       <Anuncio />

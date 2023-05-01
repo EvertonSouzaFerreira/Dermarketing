@@ -172,8 +172,11 @@ export const Card = styled.div`
         text-align: center;
         @media (max-width: 768px){
         
-        font-size: 20px;
-        
+          width: 283.94px;
+          height: 66.97px;
+          font-size: 21px;
+          line-height: 120%;
+          gap: 7px;
         }
     }
 
@@ -187,7 +190,10 @@ export const Card = styled.div`
         line-height: 150%;
         @media (max-width: 768px){
         
-        font-size: 16px;
+          width: 226.79px;
+          height: 87.5px;
+          font-size: 14px;
+          line-height: 150%;
         
         }
     }
@@ -198,13 +204,15 @@ export const Card = styled.div`
     img{
       width: 70px;
       height: 60px;
+      @media (max-width: 768px){
+        width: 61.05px;
+        height: 44.76px;
+        
+      
+      }
     }
 
-    @media (max-width: 920px){
-        width: 355px;
-        height: 267px;
-        padding: 8px 24px;
-        }
+   
     
 `
 

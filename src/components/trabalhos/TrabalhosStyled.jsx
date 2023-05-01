@@ -11,6 +11,12 @@ export const ContainerTrabalhos = styled.div`
     justify-content: center;
     gap: 4rem;
 
+    @media (max-width: 720px){
+            
+            margin-top: 6rem;
+            gap: 1rem;
+        }
+
     .fundoTitulo{
         display: flex;
         width: 100%;
@@ -52,11 +58,20 @@ export const ContainerCardsTrabalhos = styled.div`
     max-width: 100%;
     justify-content: center;
     gap: 2rem;
+
+    @media (max-width: 720px){
+            flex-wrap: wrap;
+            gap: 5rem;
+        }
     
     img{
         width: 282px;
         height: 175px;
         border-radius: 6px;
+        @media (max-width: 720px){
+            width: 266px;
+            height: 164px;
+        }
     }
 
     .containerCardTrabalho{
@@ -70,6 +85,12 @@ export const ContainerCardsTrabalhos = styled.div`
             font-size: 20px;
             line-height: 120%;
             color: #E4B528;
+
+            @media (max-width: 720px){
+                width: 347px;
+                height: 22px;
+                font-size: 18px;
+        }
         }
 
         p{
@@ -78,6 +99,12 @@ export const ContainerCardsTrabalhos = styled.div`
             font-size: 14px;
             line-height: 150%;
             color: #DFDFDF;
+
+            @media (max-width: 720px){
+                width: 313.33px;
+                height: 80px;
+                font-size: 13px;
+        }
 
         }
     }

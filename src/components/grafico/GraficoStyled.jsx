@@ -12,7 +12,7 @@ export const ContainerGraficos = styled.div`
     height: 100vh;
     @media (max-width: 720px){
             
-            margin-top: 5rem;
+            margin-top: 6rem;
         }
 
         .containerPergunta{
@@ -67,13 +67,13 @@ export const ContainerGraficos = styled.div`
 
 @media (max-width: 720px){
             h3{
-                width: 221px;
+                width: 223px;
                 height: 98px;
-                background-color: blue;
+                
                 font-family: 'Source Sans 3';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 21px;
+                font-size: 20px;
                 line-height: 135%;
 
             }
