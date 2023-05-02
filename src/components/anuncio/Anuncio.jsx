@@ -21,7 +21,7 @@ function Anuncio() {
         <div className='containerDescriptionImgGoogle'>
             <div className='decription'>
                 <img src={coroa} alt="coroa" />
-                <h5> <span>Alcance o <br/> primeiro lugar</span><br/> nas pesquisas <br/> do Google </h5>
+                <h5> <span>Alcance o  primeiro lugar</span> nas pesquisas do Google </h5>
             </div>
             <div className='imgGoogle'>
                 <img src={anuncioGoogleImg} alt="top1 google" />
