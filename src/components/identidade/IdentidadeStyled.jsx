@@ -39,15 +39,22 @@ export const ContainerIdentidade = styled.div`
         @media (max-width: 768px) {
             flex-wrap: wrap;
             align-items: center;
+            text-align: center;
             .imgs{
                 width: 100%;
                 height: fit-content;
+
+                img{
+                    width: 322px;
+                    height: 184px;
+                }
             }
 
             .descricao{
                 width: 327px;
                 height: 308px;
                 gap: 24px;
+                text-align: center;
                 align-items: center;
                 justify-content: center;
                 h5{
