@@ -11,6 +11,10 @@ export const ContainerIdentidade = styled.div`
     height: 100vh;
     gap: 5rem;
 
+    @media (max-width: 768px) {
+        height: fit-content;
+    }
+
     .containerImgDescription{
         display: flex;
         align-items: flex-start;
@@ -31,6 +35,39 @@ export const ContainerIdentidade = styled.div`
         .imgs{
             width: 532px;
         }
+
+        @media (max-width: 768px) {
+            flex-wrap: wrap;
+            align-items: center;
+            .imgs{
+                width: 100%;
+                height: fit-content;
+            }
+
+            .descricao{
+                width: 327px;
+                height: 308px;
+                gap: 24px;
+                align-items: center;
+                justify-content: center;
+                h5{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 135%;
+                }
+                
+                p{
+                    font-weight: 700;
+                    font-size: 11px;
+                    line-height: 150%;
+                }
+
+                button{
+                    width: 280px;
+                    height: 31px;
+                }
+            }
+        }
     }
 
 
@@ -38,6 +75,19 @@ export const ContainerIdentidade = styled.div`
     .fundoTitulo{
         display: flex;
         width: 100%;
+
+        @media (max-width: 768px) {
+            img{
+                width: 30px;
+                height: 71px;
+            }
+
+            h5{
+                width: 334px;
+                height: 67px;
+                font-size: 18px;
+            }
+        }
         
     }
     

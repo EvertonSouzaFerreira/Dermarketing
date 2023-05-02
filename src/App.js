@@ -41,8 +41,8 @@ function App() {
       <Trabalhos />
       <Vantagens />
       <Destaque />
-      {/* <Identidade />
-      <Anuncio />
+      <Identidade />
+      {/* <Anuncio />
       <DermarVantagens />
       <VamosComecar /> */}
     </>

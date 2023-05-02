@@ -14,7 +14,7 @@ export const ContainerHeader = styled.div`
     color: white;
     padding: 32px 40px;
     position: fixed;
-
+    z-index: 10;
     @media (width < 900px){
         img{
         width: 41px;
