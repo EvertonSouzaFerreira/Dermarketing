@@ -41,8 +41,6 @@ export const ContainerCards = styled.div`
 
     @media (max-width: 768px){
       height: fit-content;
-            margin-top: 10rem;
-            
             justify-content: center;
             align-items: center;
             

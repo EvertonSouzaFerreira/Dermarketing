@@ -23,6 +23,8 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
     font-family: "Inter", "sans-serif";
     text-decoration: none;
+
+   
   }
   body{
     background: linear-gradient(180deg, #0E0E0E 0%, #060606 100%);

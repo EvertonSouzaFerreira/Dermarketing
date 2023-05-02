@@ -56,6 +56,7 @@ export const ContainerTrabalhos = styled.div`
 
 export const ContainerCardsTrabalhos = styled.div`
     display: flex;
+    flex-wrap: wrap;
     max-width: 100%;
     justify-content: center;
     gap: 2rem;

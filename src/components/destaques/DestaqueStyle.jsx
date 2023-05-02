@@ -114,10 +114,15 @@ export const Card = styled.div`
   border-radius: 12px;
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.7s ease-in` : "none"};
-
+  @media (max-width: 768px) {
+           animation: none;
+            }
   &.card2 {
     animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.8s ease-in` : "none"};
     
+    @media (max-width: 768px) {
+           animation: none;
+            }
   }
 
   @media (max-width: 920px){

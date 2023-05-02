@@ -16,6 +16,7 @@ export const ContainerVamosComecar = styled.div`
     @media (max-width: 768px){
         margin-top: 5rem;
         height: fit-content;
+        background: #121212;
         
         .imgDoctor  {
             display: none;
@@ -35,8 +36,9 @@ export const ContainerVamosComecar = styled.div`
 
         @media (max-width: 768px){
             align-items: center;
-            background: #121212;
+           
             padding: 2rem;
+            height: fit-content;
             h4{
                 text-align: center;
                 font-size: 24px;

@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react'
 
 //imagens
-import fundoNumero from '../../images/fundoNumero.png'
+import numero1 from '../../images/numero1.png'
+import numero2 from '../../images/numero2.png'
+import numero3 from '../../images/numero3.png'
+import numero4 from '../../images/numero4.png'
+import numero5 from '../../images/numero5.png'
 import errow from '../../images/errow.png'
 
 import { ContainerVantagens } from './VantagensStyled'
@@ -34,11 +38,11 @@ function Vantagens() {
             <button>Quero criar meu site profissional</button>
         </div>
         <ul>
-            <li><img src={fundoNumero} alt="" /><p>Aumento da visibilidade</p> </li>
-            <li><img src={fundoNumero} alt="" /><p>Construção de Autoridade</p></li>
-            <li><img src={fundoNumero} alt="" /><p>Atrair mais pacientes</p></li>
-            <li><img src={fundoNumero} alt="" /><p>Inspiração e credibilidade</p></li>
-            <li><img src={fundoNumero} alt="" /><p>Destacar-se da concorrência</p></li>
+            <li><img src={numero1} alt="" /><p>Aumento da visibilidade</p> </li>
+            <li><img src={numero2} alt="" /><p>Construção de Autoridade</p></li>
+            <li><img src={numero3} alt="" /><p>Atrair mais pacientes</p></li>
+            <li><img src={numero4} alt="" /><p>Inspiração e credibilidade</p></li>
+            <li><img src={numero5} alt="" /><p>Destacar-se da concorrência</p></li>
         </ul>
 
         {!width && <div className='errow'>

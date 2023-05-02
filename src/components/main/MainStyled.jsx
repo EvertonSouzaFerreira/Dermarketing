@@ -16,7 +16,7 @@ export const ContainerMain = styled.div`
             height: fit-content;
             padding-top: 5rem;
             display: flex;
-            margin-bottom: 5rem;
+            
             
             /* border: solid 5px yellow; */
         }
@@ -116,7 +116,7 @@ export const ContainerMain = styled.div`
             @media (max-width: 768px){
             margin: auto;
             width: 207px;
-            height: 43.39px;
+            height: 43px;
             font-family: 'Source Sans 3';
             font-style: normal;
             font-weight: 600;
@@ -124,7 +124,7 @@ export const ContainerMain = styled.div`
             line-height: 26px;
             padding: 10px 28px;
             border: none;
-          
+            margin-bottom: 5rem;
             /* identical to box height */
 
             display: flex;

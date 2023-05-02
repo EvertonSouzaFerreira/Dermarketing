@@ -33,12 +33,12 @@ export const ContainerDermaVantagens = styled.div`
     /* height: 100vh; */
     /* max-height: 100vh; */
     gap: 2rem;
-    padding: 32px 40px;
+    /* padding: 32px 40px; */
    
 
     @media (max-width: 768px) {
             margin-top: 3rem;
-           
+            padding: 0;
             }
 
     .cards{
@@ -112,11 +112,13 @@ export const ContainerDermaVantagens = styled.div`
 `
 
 export const Card = styled.div`
-    display: flex;
+  display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   /* padding: 16px 48px; */
+ 
   gap: .1px;
   width: 355px;
   height: 267px;
@@ -127,10 +129,26 @@ export const Card = styled.div`
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
   animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.7s ease-in` : "none"};
+  @media (max-width: 768px) {
+           animation: none;
+            }
+  
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  img{
+    padding-left: 1rem;
+  }
 
   &.card2 {
     animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.8s ease-in` : "none"};
-    
+    @media (max-width: 768px) {
+           animation: none;
+            }
   }
     
     h2{
@@ -144,6 +162,7 @@ export const Card = styled.div`
         color: #EEC65F;
         background: none;
         text-align: center;
+        padding-right: 2rem;
     }
 
     p{
@@ -163,5 +182,6 @@ export const Card = styled.div`
         width: 355px;
         height: 267px;
         padding: 8px 24px;
+        
         }
 `
