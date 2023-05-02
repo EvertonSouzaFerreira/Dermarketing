@@ -20,7 +20,7 @@ function VamosComecar() {
             <p>Vamos começar?</p>
             <button>Entrar em contato</button>
         </div>
-        <img src={imgDoctor} alt="imagenDotor" />
+        <img className='imgDoctor' src={imgDoctor} alt="imagenDotor" />
 
     </ContainerVamosComecar>
   )

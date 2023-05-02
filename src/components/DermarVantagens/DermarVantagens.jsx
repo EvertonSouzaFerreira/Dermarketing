@@ -24,8 +24,12 @@ function DermarVantagens() {
   return (
     <ContainerDermaVantagens id='Derma'>
         <div className='fundoTitulo'>
+        
+ 
                 <img src={fundoTitulo} alt="" />
-            <h5>Mas apenas isso não basta: <br/><span>Uma identidade visual </span> bem elaborada <br/> <span>torna tudo muito mais atraente</span> </h5>            
+            <h5>Com anúncios feito no Google <br/><span>você pode alcançar muito  
+                mais pacientes! </span> A Dermarketing
+                te mostra as vantagens! </h5>            
         </div>
         <div className='cards'>
         <Card ref={ref} isInView={isInView} className='card1' >

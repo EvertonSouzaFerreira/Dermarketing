@@ -11,7 +11,17 @@ export const ContainerVamosComecar = styled.div`
     align-items: center;
     justify-content: space-evenly;
     background-image: url(${fundoDescricao});
-        background-size: contain;
+    background-size: contain;
+
+    @media (max-width: 768px){
+        margin-top: 5rem;
+        height: fit-content;
+        
+        .imgDoctor  {
+            display: none;
+        }                 
+        }
+
     .containertitle{
         display: flex;
         flex-direction: column;
@@ -21,6 +31,22 @@ export const ContainerVamosComecar = styled.div`
         
         img{
             width: 74px;
+        }
+
+        @media (max-width: 768px){
+            align-items: center;
+            background: #121212;
+            padding: 2rem;
+            h4{
+                text-align: center;
+                font-size: 24px;
+            }
+            p{
+                font-size: 19px;
+            }
+            img{
+                width: 44px;
+            }
         }
     }
 

@@ -34,7 +34,13 @@ export const ContainerDermaVantagens = styled.div`
     /* max-height: 100vh; */
     gap: 2rem;
     padding: 32px 40px;
-    background: none;
+   
+
+    @media (max-width: 768px) {
+            margin-top: 3rem;
+           
+            }
+
     .cards{
         display: flex;
         flex-wrap: wrap;
@@ -50,12 +56,27 @@ export const ContainerDermaVantagens = styled.div`
             height: 100%;
         }
 
+       
+
     }
 
 
     .fundoTitulo{
         display: flex;
         width: 100%;
+
+        @media (max-width: 768px) {
+            img{
+                width: 30px;
+                height: 94px;
+            }
+
+            h5{
+                width: 334px;
+                height: 67px;
+                font-size: 18px;
+            }
+        }
         
     }
     
@@ -101,7 +122,7 @@ export const Card = styled.div`
   height: 267px;
   cursor: pointer;
   /* Box Defaut */
-  background: #121212;
+  border: 1px solid #E4B528;
   /* Sombra */
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;

@@ -43,8 +43,8 @@ function App() {
       <Destaque />
       <Identidade />
       <Anuncio />
-      {/* <DermarVantagens />
-      <VamosComecar /> */}
+      <DermarVantagens />
+      <VamosComecar />
     </>
   );
 }
