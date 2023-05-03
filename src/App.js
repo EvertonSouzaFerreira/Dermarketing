@@ -13,6 +13,7 @@ import Identidade from "./components/identidade/Identidade";
 import Anuncio from "./components/anuncio/Anuncio";
 import DermarVantagens from "./components/DermarVantagens/DermarVantagens";
 import VamosComecar from "./components/vamosComecar/VamosComecar";
+import Footer from "./components/footer/Footer";
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -47,6 +48,7 @@ function App() {
       <Anuncio />
       <DermarVantagens />
       <VamosComecar />
+      <Footer />
     </>
   );
 }
