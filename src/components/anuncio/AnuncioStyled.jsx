@@ -12,7 +12,7 @@ export const ContainerAnuncio = styled.div`
     
     gap: 10rem;
     
-    @media (max-width: 768px) {
+    @media (max-width: 920px) {
             gap: 1rem;
             
             height: max-content;
@@ -34,7 +34,7 @@ export const ContainerAnuncio = styled.div`
             text-align: right;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 920px) {
             img{
                 width: 30px;
                 height: 71px;
@@ -68,8 +68,8 @@ export const ContainerAnuncio = styled.div`
         width: 100%;
         align-items: center;
         justify-content: center;
-        
-        @media (max-width: 768px) {
+    
+        @media (max-width: 920px) {
                 
                 flex-direction: column-reverse;
                 
@@ -83,15 +83,20 @@ export const ContainerAnuncio = styled.div`
             flex-direction: column;
             justify-content: center;
             
-            padding-left: 5rem;
+            padding-left: 8rem;
             
             background: #0C0C0C;
+
+            h5{
+                max-width: 250px;
+                
+            }
 
             img{
                 width: 27px;
                 height: 23px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 920px) {
                 width: 284px;
                 height: 91px;
                 align-items: center;
@@ -116,7 +121,7 @@ export const ContainerAnuncio = styled.div`
             
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 920px) {
             img{
                
             }

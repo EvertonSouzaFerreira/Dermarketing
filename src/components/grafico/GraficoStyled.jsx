@@ -10,7 +10,7 @@ export const ContainerGraficos = styled.div`
     align-items: center;
     max-width: 100vw;
     height: 100vh;
-    @media (max-width: 720px){
+    @media (max-width: 920px){
             padding: 1rem;
             height: fit-content;
             margin-top: 10rem;
@@ -23,7 +23,7 @@ export const ContainerGraficos = styled.div`
         flex-direction: column;
         gap: 3rem;
         background: none;
-        @media (max-width: 720px){
+        @media (max-width: 920px){
             justify-content: center;
             align-items: center;
         }
@@ -36,7 +36,7 @@ export const ContainerGraficos = styled.div`
             font-weight: 400;
             font-size: 24px; 
             
-            @media (max-width: 720px){
+            @media (max-width: 920px){
                 width: 285px;
                 height: 31px;
 
@@ -68,7 +68,7 @@ export const ContainerGraficos = styled.div`
         
 }
 
-@media (max-width: 720px){
+@media (max-width: 920px){
             h3{
                 width: 223px;
                 height: 98px;
@@ -91,7 +91,7 @@ export const ContainerGraficos = styled.div`
     align-items: center; 
     
 
-    @media (max-width: 720px){
+    @media (max-width: 920px){
         width: 346.74px;
         height: 100%;
         
@@ -116,7 +116,7 @@ export const GraficoImg = styled.div`
     color: white;
     gap: .5rem;
    /* background-color: #EEC65F; */
-   @media (max-width: 720px){
+   @media (max-width: 920px){
             width: 346px;
             height: fit-content; 
             padding: 8px;
@@ -134,7 +134,7 @@ export const GraficoImg = styled.div`
         font-size: 28px;
         line-height: 135%;
 
-        @media (max-width: 720px){
+        @media (max-width: 920px){
             width: 160px;
             height: 27px;
             font-size: 19px;
@@ -146,7 +146,7 @@ export const GraficoImg = styled.div`
         font-weight: 400;
         font-size: 17px;
 
-        @media (max-width: 720px){
+        @media (max-width: 920px){
             width: 282px;
             height: 19px;
             font-size: 12px;
@@ -161,7 +161,7 @@ export const GraficoImg = styled.div`
         line-height: 125%;
         color: #EEC65F;
 
-        @media (max-width: 720px){
+        @media (max-width: 920px){
             width: 222.81px;
             height: 31px;
             font-size: 24px;

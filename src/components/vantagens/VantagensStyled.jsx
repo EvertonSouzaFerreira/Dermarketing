@@ -10,7 +10,7 @@ export const ContainerVantagens = styled.div`
     /* background: blue; */
 
 
-    @media (max-width: 768px){
+    @media (max-width: 920px){
             height: fit-content;
             margin-top: 10rem;
             flex-wrap: wrap;
@@ -32,7 +32,7 @@ export const ContainerVantagens = styled.div`
         gap: .5rem;
         /* background-color: red; */
 
-        @media (max-width: 768px){
+        @media (max-width: 920px){
             height: fit-content;
             
             gap: 1rem;
@@ -52,7 +52,7 @@ export const ContainerVantagens = styled.div`
         span{
             color: #E4B528;
         }
-        @media (max-width: 768px){
+        @media (max-width: 920px){
             width: 362px;
             height: 50px;
             font-size: 20px;
@@ -78,7 +78,7 @@ export const ContainerVantagens = styled.div`
                 color: #CCA42D;
             }
 
-            @media (max-width: 768px){
+            @media (max-width: 920px){
                 width: 269.29px;
                 height: 38.26px;
                 padding: 0px 5px;
@@ -97,7 +97,7 @@ export const ContainerVantagens = styled.div`
             /* background-color: #CCA42D; */
             gap: 2.5rem;
 
-            @media (max-width: 768px){
+            @media (max-width: 920px){
                 width: 290px;
                 height: 334px;
                 align-items: center;
@@ -116,7 +116,7 @@ export const ContainerVantagens = styled.div`
                 border-radius: 44.1969px;
                 color: #FFFFFF;
 
-                @media (max-width: 768px){
+                @media (max-width: 920px){
                 width: 268px;
                 height: 41px;
                 justify-content: space-between;
@@ -128,7 +128,7 @@ export const ContainerVantagens = styled.div`
                
                     img{
                         height: 93px;
-                        @media (max-width: 768px){
+                        @media (max-width: 920px){
                                 width: 50px;
                                 height: 50px;
                                 

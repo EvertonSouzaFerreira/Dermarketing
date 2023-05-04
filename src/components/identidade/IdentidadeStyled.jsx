@@ -11,7 +11,7 @@ export const ContainerIdentidade = styled.div`
     height: 100vh;
     gap: 5rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 920px) {
         height: fit-content;
     }
 
@@ -36,7 +36,7 @@ export const ContainerIdentidade = styled.div`
             width: 532px;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 920px) {
             flex-wrap: wrap;
             align-items: center;
             text-align: center;
@@ -83,7 +83,7 @@ export const ContainerIdentidade = styled.div`
         display: flex;
         width: 100%;
 
-        @media (max-width: 768px) {
+        @media (max-width: 920px) {
             img{
                 width: 30px;
                 height: 71px;

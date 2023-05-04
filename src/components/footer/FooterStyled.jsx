@@ -10,6 +10,10 @@ export const ContainerFooter = styled.div `
     background: #121212;
     color: #DFDFDF;
 
+    @media (max-width: 920px) {
+        
+    }
+
     .containerMarcaLogo{
         display: flex;
         flex-direction: column;
@@ -69,7 +73,90 @@ export const ContainerFooter = styled.div `
         
     }
     .contato{
-            width: 231px
+            width: 241px;
+
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.5rem;
+            } 
         }
 
+`
+
+export const ContainerFooterMobile = styled.div`
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    background: #121212;
+    .imgNome{
+        width: 160.83px;
+        height: 15px;
+        
+    }
+    .containerInfos{
+        display: flex;
+        height: 100%;
+        gap: 3rem;
+        align-items: center;
+        justify-content: center;
+        
+        .contato{
+        
+            height: 122px;
+            gap: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.5rem;
+            }
+        }
+        
+
+        /* .paginas{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Roboto';
+            font-style: normal;
+            color: #DDDDDD;
+            justify-content: center;
+            gap: 1rem;
+        } */
+
+
+        h5{
+          font-size: 15px;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            
+            align-items: flex-start;
+            justify-content: flex-start;
+            
+            gap: 1rem;
+        }
+
+        li{
+            font-weight: 400;
+            font-size: 11.8055px;
+            line-height: 14px;
+        } 
+    }
+
+    .containerLogos{
+            
+            display: flex;
+            gap: 2rem;
+        }
 `

@@ -11,7 +11,7 @@ export const ContainerTrabalhos = styled.div`
     justify-content: center;
     gap: 4rem;
 
-    @media (max-width: 720px){
+    @media (max-width: 920px){
             height: fit-content;
             margin-top: 6rem;
             gap: 1rem;
@@ -50,6 +50,11 @@ export const ContainerTrabalhos = styled.div`
             :hover{
                 color: #CCA42D;
             }
+
+            @media (max-width: 920px){
+                width: 251.6px;
+                height: 48.64px;
+                }
         }
 
 `
@@ -61,7 +66,7 @@ export const ContainerCardsTrabalhos = styled.div`
     justify-content: center;
     gap: 2rem;
 
-    @media (max-width: 720px){
+    @media (max-width: 920px){
             flex-wrap: wrap;
             gap: 5rem;
             
@@ -71,7 +76,7 @@ export const ContainerCardsTrabalhos = styled.div`
         width: 282px;
         height: 175px;
         border-radius: 6px;
-        @media (max-width: 720px){
+        @media (max-width: 920px){
             width: 266px;
             height: 164px;
         }
@@ -81,7 +86,7 @@ export const ContainerCardsTrabalhos = styled.div`
         max-width: 375px;
         text-align: center;
         
-        @media (max-width: 720px){
+        @media (max-width: 920px){
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -95,7 +100,7 @@ export const ContainerCardsTrabalhos = styled.div`
             line-height: 120%;
             color: #E4B528;
 
-            @media (max-width: 720px){
+            @media (max-width: 920px){
                 width: 347px;
                 height: 22px;
                 font-size: 18px;
@@ -110,7 +115,7 @@ export const ContainerCardsTrabalhos = styled.div`
             line-height: 150%;
             color: #DFDFDF;
 
-            @media (max-width: 720px){
+            @media (max-width: 920px){
                 width: 313.33px;
                 height: 80px;
                 font-size: 13px;

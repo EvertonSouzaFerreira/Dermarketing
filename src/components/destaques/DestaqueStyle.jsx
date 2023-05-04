@@ -32,7 +32,7 @@ export const ContainerDestaques = styled.div`
     padding: 32px 40px;
     background: none;
 
-    @media (max-width: 768px){
+    @media (max-width: 920px){
             
             height: fit-content;
             margin-top: 10rem;
@@ -64,7 +64,11 @@ export const ContainerDestaques = styled.div`
         display: flex;
         width: 100%;
 
-        @media (max-width: 768px){
+        h4{
+          max-width: 284px;
+        }
+
+        @media (max-width: 920px){
             width: 100vw;
             align-items: center;
             
@@ -87,7 +91,7 @@ export const ContainerDestaques = styled.div`
             color: #E4B528;
         }
 
-        @media (max-width: 768px){
+        @media (max-width: 920px){
           width: 178px;
           height: 40px;
           font-size: 15px;
@@ -114,13 +118,13 @@ export const Card = styled.div`
   border-radius: 12px;
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.7s ease-in` : "none"};
-  @media (max-width: 768px) {
+  @media (max-width: 920px) {
            animation: none;
             }
   &.card2 {
     animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.8s ease-in` : "none"};
     
-    @media (max-width: 768px) {
+    @media (max-width: 920px) {
            animation: none;
             }
   }

@@ -31,8 +31,8 @@ function Main() {
     <ContainerMain>
         <div className='container-descricao'>
             <div className='descricao'>
-            <h1>Trabalha na área da beleza? 
-            <span>A Dermarketing<br/> pode te ajudar
+            <h1>Trabalha na área da beleza? <br/>
+            <span>A Dermarketing pode te ajudar
                 a alcançar mais pacientes.</span>
             </h1>
             <p>Somos uma agência focada apenas em especialistas voltados<br/> para a área da estética,<b> oferecemos um trabalho de excelência atraindo mais clientes para você.</b>

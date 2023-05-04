@@ -39,7 +39,7 @@ export const ContainerCards = styled.div`
     
    
 
-    @media (max-width: 768px){
+    @media (max-width: 920px){
       height: fit-content;
             justify-content: center;
             align-items: center;
@@ -73,7 +73,7 @@ export const ContainerCards = styled.div`
         gap: 3rem;
      
         font-family: 'Source Sans 3';
-        @media (max-width: 768px){
+        @media (max-width: 920px){
         
         gap: 1rem;
         
@@ -92,7 +92,7 @@ export const ContainerCards = styled.div`
             width: 100%;
             text-align: center;
 
-            @media (max-width: 768px){
+            @media (max-width: 920px){
         
               font-size: 16px;
               
@@ -101,7 +101,7 @@ export const ContainerCards = styled.div`
             
         }
         h3{
-        width: 100%;
+        max-width: 598px;
         height: 64px;
         text-align: center;
         font-family: 'Source Sans 3';
@@ -116,7 +116,7 @@ export const ContainerCards = styled.div`
             color:#EEC65F;;
             font-weight: 600;
         }
-        @media (max-width: 768px){
+        @media (max-width: 920px){
         
         font-size: 22px;
         
@@ -148,13 +148,17 @@ export const Card = styled.div`
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
   animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.7s ease-in` : "none"};
-
+  @media (max-width: 920px){
+       animation: none;
+        }
   &.card2 {
     animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.8s ease-in` : "none"};
-    
+    @media (max-width: 920px){
+       animation: none;
+        }
   }
 
-  @media (max-width: 768px){
+  @media (max-width: 920px){
         width: 100%;
         height: 290px;
         gap: 1px;
@@ -172,7 +176,7 @@ export const Card = styled.div`
         color: #EEC65F;
         background: none;
         text-align: center;
-        @media (max-width: 768px){
+        @media (max-width: 920px){
         
           width: 283.94px;
           height: 66.97px;
@@ -190,7 +194,7 @@ export const Card = styled.div`
         text-align: center;
         background: none;
         line-height: 150%;
-        @media (max-width: 768px){
+        @media (max-width: 920px){
         
           width: 226.79px;
           height: 87.5px;
@@ -206,7 +210,7 @@ export const Card = styled.div`
     img{
       width: 70px;
       height: 60px;
-      @media (max-width: 768px){
+      @media (max-width: 920px){
         width: 61.05px;
         height: 44.76px;
         

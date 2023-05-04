@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 
 //styled
-import {ContainerFooter} from './FooterStyled'
+import {ContainerFooter, ContainerFooterMobile} from './FooterStyled'
 
 //imagens
 
@@ -10,11 +10,36 @@ import logoHeader from '../../images/logo-header.png'
 import logoFace from '../../images/logoFace.png'
 import logoInstagran from '../../images/logoInstagran.png'
 import logoWhatss from '../../images/logoWhatss.png'
+import iconTelefone from '../../images/iconTelefone.png'
+import iconEmail from '../../images/iconEmail.png'
+import iconLocalizacao from '../../images/iconLocalizacao.png'
+
 
 
 function Footer() {
+
+    const [width, setWidth] = useState(false)
+
+  const handleResize = () => {
+    const width = window.innerWidth;
+    if (width <= 768) {
+      setWidth(true)
+    } else {
+      setWidth(false)
+    }
+  }
+
+  
+
+  useEffect(() => {
+    handleResize(); // Executa a função quando o componente é montado
+    window.addEventListener('resize', handleResize); // Adiciona um listener para redimensionamento
+    return () => window.removeEventListener('resize', handleResize); // Remove o listener quando o componente é desmontado
+  }, []);
+
   return (
-    <ContainerFooter>
+    <>
+    {!width?<ContainerFooter>
         <div className='containerMarcaLogo'>
             <img className='imgLogo' src={logoHeader} alt="" />
             <p>Fale agora mesmo com a nossa 
@@ -51,13 +76,44 @@ function Footer() {
         <div className='contato paginas'>
             <h5>Contato</h5>
             <ul>
-                <li>(67) 99228-6495</li>
-                <li>contato@dermarketing.com.br</li>
-                <li>Campo Grande - Mato Grosso do Sul.</li>
+                <li><img src={iconTelefone} alt="" /> (67) 99228-6495</li>
+                <li><img src={iconEmail} alt="" /> contato@dermarketing.com.br</li>
+                <li><img src={iconLocalizacao} alt="" /> Campo Grande - Mato Grosso do Sul.</li>
             </ul>
         </div>
 
-    </ContainerFooter>
+    </ContainerFooter>:
+
+    <ContainerFooterMobile>
+        <img className='imgNome' src={logoHeader} alt="" />
+        <div className='containerInfos'>
+        <div className='contato paginas'>
+            <h5>Serviços</h5>
+            <ul>
+                <li>Branding</li>
+                <li>Tráfego Pago</li>
+                <li>Criação de Sites</li>
+            </ul>
+        </div>
+        <div className='contato paginas'>
+            <h5>Contato</h5>
+            <ul>
+                <li><img src={iconTelefone} alt="" /> (67) 99228-6495</li>
+                <li><img src={iconEmail} alt="" /> contato@dermarketing.com.br</li>
+                <li><img src={iconLocalizacao} alt="" /> Campo Grande - Mato Grosso do Sul.</li>
+            </ul>
+        </div>
+        </div>
+        <div className='containerLogos'>
+                <img src={logoFace} alt="" />
+                <img src={logoInstagran} alt="" />
+                <img src={logoWhatss} alt="" />
+            </div>
+    </ContainerFooterMobile>}
+    </>
+    
+
+
   )
 }
 

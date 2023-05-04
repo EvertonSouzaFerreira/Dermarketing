@@ -36,7 +36,7 @@ export const ContainerDermaVantagens = styled.div`
     /* padding: 32px 40px; */
    
 
-    @media (max-width: 768px) {
+    @media (max-width: 920px) {
             margin-top: 3rem;
             padding: 0;
             }
@@ -47,7 +47,7 @@ export const ContainerDermaVantagens = styled.div`
         align-items: center;
             justify-content: center;
         gap: 1rem;
-
+        max-width: 1147px;
         @media (max-width: 920px){
             gap: .5rem;
             flex-wrap: wrap;
@@ -65,14 +65,14 @@ export const ContainerDermaVantagens = styled.div`
         display: flex;
         width: 100%;
 
-        @media (max-width: 768px) {
+        @media (max-width: 920px) {
             img{
                 width: 30px;
                 height: 94px;
             }
 
             h5{
-                width: 334px;
+                max-width: 334px;
                 height: 67px;
                 font-size: 18px;
             }
@@ -87,6 +87,7 @@ export const ContainerDermaVantagens = styled.div`
         font-weight: 700;
         font-size: 32px;
         line-height: 135%;
+        max-width: 590px;
         span{
             color: #E4B528;
         }
@@ -107,6 +108,11 @@ export const ContainerDermaVantagens = styled.div`
             border: 0.738255px solid #CCA42D;
             :hover{
                 color: #CCA42D;
+            }
+
+            @media (max-width: 920px) {
+              width: 251.42px;
+              height: 41.37px;
             }
         }
 `
@@ -129,7 +135,7 @@ export const Card = styled.div`
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
   animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.7s ease-in` : "none"};
-  @media (max-width: 768px) {
+  @media (max-width: 920px) {
            animation: none;
             }
   
@@ -146,7 +152,7 @@ export const Card = styled.div`
 
   &.card2 {
     animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.8s ease-in` : "none"};
-    @media (max-width: 768px) {
+    @media (max-width: 920px) {
            animation: none;
             }
   }

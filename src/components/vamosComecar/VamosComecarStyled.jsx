@@ -13,7 +13,7 @@ export const ContainerVamosComecar = styled.div`
     background-image: url(${fundoDescricao});
     background-size: contain;
 
-    @media (max-width: 768px){
+    @media (max-width: 920px){
         margin-top: 5rem;
         height: fit-content;
         background: #121212;
@@ -34,7 +34,7 @@ export const ContainerVamosComecar = styled.div`
             width: 74px;
         }
 
-        @media (max-width: 768px){
+        @media (max-width: 920px){
             align-items: center;
            
             padding: 2rem;

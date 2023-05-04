@@ -11,7 +11,7 @@ export const ContainerMain = styled.div`
     color: #F3F3F3;
     background-image: url(${fundoDescricao});
     font-family: 'Source Sans 3', sans-serif;
-    @media (max-width: 768px){
+    @media (max-width: 920px){
             width: 100%;
             height: fit-content;
             padding-top: 5rem;
@@ -51,7 +51,7 @@ export const ContainerMain = styled.div`
             padding: 10px;
         }
 
-        @media (max-width: 768px){
+        @media (max-width: 920px){
             width: 100%;
             font-weight: 600;
             font-size: 20px;
@@ -74,7 +74,7 @@ export const ContainerMain = styled.div`
         flex-direction: column;
         gap: 1rem;
 
-        @media (max-width: 768px){
+        @media (max-width: 920px){
             font-size: 12px;
             gap: 3rem;
             
@@ -84,12 +84,19 @@ export const ContainerMain = styled.div`
             color:#EEC65F;
 
         }
+        h1{
+            max-width: 545px;
+            
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 125%;
+        }
         p{
             font-weight: 400;
             font-size: 20px;
             line-height: 150%;
-
-            @media (max-width: 768px){
+            max-width: 540px;
+            @media (max-width: 920px){
             font-size: 11px;
             max-width: 279px;
             margin: auto;
@@ -113,7 +120,7 @@ export const ContainerMain = styled.div`
                 color: #CCA42D;
             }
 
-            @media (max-width: 768px){
+            @media (max-width: 920px){
             margin: auto;
             width: 207px;
             height: 43px;
