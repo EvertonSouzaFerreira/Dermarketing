@@ -93,6 +93,7 @@ export const ContainerFooterMobile = styled.div`
     gap: 2rem;
     padding: 1rem;
     background: #121212;
+    margin-top: 5rem;
     .imgNome{
         width: 160.83px;
         height: 15px;
