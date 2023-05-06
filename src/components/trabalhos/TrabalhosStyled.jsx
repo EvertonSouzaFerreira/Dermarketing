@@ -37,7 +37,7 @@ export const ContainerTrabalhos = styled.div`
     button{
             width: 366px;
             height: 52px;
-            background: #101010;
+            background: #0051FF;
             border: none;
             border-radius: 24.3624px;
             color: #F3F3F3;
@@ -46,10 +46,10 @@ export const ContainerTrabalhos = styled.div`
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
-            border: 0.738255px solid #CCA42D;
             :hover{
-                color: #CCA42D;
+              background: #2469FF;
             }
+
 
             @media (max-width: 920px){
                 width: 251.6px;

@@ -80,14 +80,13 @@ export const ContainerVamosComecar = styled.div`
         gap: 2.59px;
         border: none;
         cursor: pointer;
-
-        /* Blue */
-
         background: #0051FF;
         border-radius: 21px;
-
-
         color: #DFDFDF;
+        :hover{
+              background: #2469FF;
+            }
+
     }
 
 `

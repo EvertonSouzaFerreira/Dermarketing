@@ -46,24 +46,36 @@ export const ContainerDermaVantagens = styled.div`
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-            justify-content: center;
+        justify-content: center;
         gap: 1rem;
         max-width: 1147px;
+        .inner{
+              display: flex;
+              flex-wrap: wrap;
+              /* align-items: center;
+              justify-content: center; */
+              gap: 1rem;
+              
+            }
+            .caroussel{
+              cursor: default;
+              overflow: visible;
+            }
+       
         @media (max-width: 920px){
-            display: block;
-            /* gap: .5rem;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            height: 100%; */
-            max-width: 420px;
+            max-width: 410px;
             .caroussel{
               cursor: grab;
               overflow: hidden;
+              
             }
 
             .inner{
+              padding: 0.5rem;
               display: flex;
+              flex-wrap: nowrap;
+              flex-direction: row;
+              gap: 1rem;
               
             }
 
@@ -111,18 +123,18 @@ export const ContainerDermaVantagens = styled.div`
     button{
             width: 366px;
             height: 42px;
-            background: #101010;
+            background: #0051FF;
             border: none;
-            border-radius: 24.3624px;
+            border-radius: 24px;
             color: #DFDFDF;
             cursor: pointer;
             font-family: 'Source Sans 3';
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
-            border: 0.738255px solid #CCA42D;
+            
             :hover{
-                color: #CCA42D;
+              background: #2469FF;
             }
 
             @media (max-width: 920px) {

@@ -47,20 +47,16 @@ export const ContainerHeader = styled.div`
             line-height: 26px;
             padding: 10px 28px;
             border: none;
-            /* identical to box height */
-
             display: flex;
             align-items: center;
-
-            /* Branco */
-
             color: #DFDFDF;
             cursor: pointer;
-
-            /* Blue */
-
             background: #0051FF;
             border-radius: 21px;
+            :hover{
+              background: #2469FF;
+            }
+
     }
         li{
             font-family: 'Montserrat', sans-serif;
@@ -96,7 +92,7 @@ export const MenuHamburg = styled.div`
     top: 50%;
     transform: translate(-50%, -50%);
     right: 20px;
-    color: white;
+    color: #E4B528;
    
     :hover{
         color: #F9F2B7;

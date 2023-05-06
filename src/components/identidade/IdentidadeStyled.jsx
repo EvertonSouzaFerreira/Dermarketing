@@ -10,9 +10,9 @@ export const ContainerIdentidade = styled.div`
     max-width: 100vw;
     height: 100vh;
     gap: 5rem;
-
+    
     @media (max-width: 920px) {
-        height: fit-content;
+        min-height: fit-content;
     }
 
     .containerImgDescription{
@@ -72,6 +72,7 @@ export const ContainerIdentidade = styled.div`
                 button{
                     width: 280px;
                     height: 31px;
+                    
                 }
             }
         }
@@ -115,7 +116,7 @@ export const ContainerIdentidade = styled.div`
     button{
             width: 366px;
             height: 42px;
-            background: #101010;
+            background: #0051FF;
             border: none;
             border-radius: 24.3624px;
             color: #DFDFDF;
@@ -124,9 +125,9 @@ export const ContainerIdentidade = styled.div`
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
-            border: 0.738255px solid #CCA42D;
             :hover{
-                color: #CCA42D;
+              background: #2469FF;
             }
+
         }
 `

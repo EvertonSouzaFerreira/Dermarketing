@@ -14,6 +14,7 @@ import Anuncio from "./components/anuncio/Anuncio";
 import DermarVantagens from "./components/DermarVantagens/DermarVantagens";
 import VamosComecar from "./components/vamosComecar/VamosComecar";
 import Footer from "./components/footer/Footer";
+import Depoimentos from "./components/depoimentos/Depoimentos";
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -45,6 +46,7 @@ function App() {
       <Vantagens />
       <Destaque />
       <Identidade />
+      <Depoimentos />
       <Anuncio />
       <DermarVantagens />
       <VamosComecar />

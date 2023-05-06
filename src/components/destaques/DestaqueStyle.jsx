@@ -49,14 +49,36 @@ export const ContainerDestaques = styled.div`
         display: flex;
         gap: 1rem;
         
+        .inner{
+              display: flex;
+              flex-wrap: wrap;
+              /* align-items: center;
+              justify-content: center; */
+              gap: 1rem;
+              
+            }
+            .caroussel{
+              cursor: default;
+              overflow: visible;
+            }
+       
         @media (max-width: 920px){
-            gap: 3rem;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            padding: 0px;
-            height: fit-content;
-            
+            max-width: 410px;
+            .caroussel{
+              cursor: grab;
+              overflow: hidden;
+              
+            }
+
+            .inner{
+              padding: 0.5rem;
+              display: flex;
+              flex-wrap: nowrap;
+              flex-direction: row;
+              gap: 1rem;
+              
+            }
+
         }
     }
 
