@@ -16,7 +16,7 @@ export const ContainerVamosComecar = styled.div`
     @media (max-width: 920px){
         margin-top: 5rem;
         height: fit-content;
-        background: #121212;
+        background-image: none;
         
         .imgDoctor  {
             display: none;

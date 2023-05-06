@@ -71,7 +71,7 @@ export const ContainerDestaques = styled.div`
         @media (max-width: 920px){
             width: 100vw;
             align-items: center;
-            
+            display: none;
             img{
               width: 300px;
               height: 48px;

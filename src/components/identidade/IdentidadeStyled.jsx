@@ -87,12 +87,14 @@ export const ContainerIdentidade = styled.div`
             img{
                 width: 30px;
                 height: 71px;
+                display: none;
             }
 
             h5{
                 width: 334px;
                 height: 67px;
                 font-size: 18px;
+                display: none;
             }
         }
         

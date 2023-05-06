@@ -39,6 +39,7 @@ export const ContainerDermaVantagens = styled.div`
     @media (max-width: 920px) {
             margin-top: 3rem;
             padding: 0;
+            background: #121212;
             }
 
     .cards{
@@ -49,11 +50,23 @@ export const ContainerDermaVantagens = styled.div`
         gap: 1rem;
         max-width: 1147px;
         @media (max-width: 920px){
-            gap: .5rem;
+            display: block;
+            /* gap: .5rem;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            height: 100%;
+            height: 100%; */
+            max-width: 420px;
+            .caroussel{
+              cursor: grab;
+              overflow: hidden;
+            }
+
+            .inner{
+              display: flex;
+              
+            }
+
         }
 
        
@@ -67,11 +80,13 @@ export const ContainerDermaVantagens = styled.div`
 
         @media (max-width: 920px) {
             img{
-                width: 30px;
-                height: 94px;
+                /* width: 30px;
+                height: 94px; */
+                display: none;
             }
 
             h5{
+              display: none;
                 max-width: 334px;
                 height: 67px;
                 font-size: 18px;
