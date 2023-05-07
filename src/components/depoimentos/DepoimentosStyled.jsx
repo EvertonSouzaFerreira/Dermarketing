@@ -46,7 +46,7 @@ export const ContainerDepoimentos = styled.div`
             }
 
             .inner{
-              padding: 0.5rem;
+              padding: 1.5rem;
               display: flex;
               flex-wrap: nowrap;
               flex-direction: row;

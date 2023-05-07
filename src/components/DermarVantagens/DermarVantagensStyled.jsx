@@ -49,17 +49,20 @@ export const ContainerDermaVantagens = styled.div`
         justify-content: center;
         gap: 1rem;
         max-width: 1147px;
+       
         .inner{
               display: flex;
               flex-wrap: wrap;
               /* align-items: center;
               justify-content: center; */
-              gap: 1rem;
               
+              gap: 1rem;
+           
             }
             .caroussel{
               cursor: default;
               overflow: visible;
+              padding-left: 1rem;
             }
        
         @media (max-width: 920px){
@@ -88,13 +91,15 @@ export const ContainerDermaVantagens = styled.div`
 
     .fundoTitulo{
         display: flex;
-        width: 100%;
-
+        max-width: 100vw;
+        margin-right: auto;
+        
         @media (max-width: 920px) {
             img{
                 /* width: 30px;
                 height: 94px; */
                 display: none;
+                border: solid red 3px;
             }
 
             h5{
@@ -102,6 +107,7 @@ export const ContainerDermaVantagens = styled.div`
                 max-width: 334px;
                 height: 67px;
                 font-size: 18px;
+                border: solid red 3px;
             }
         }
         
@@ -151,7 +157,7 @@ export const Card = styled.div`
   align-items: center;
   justify-content: center;
   /* padding: 16px 48px; */
- 
+  
   gap: .1px;
   width: 355px;
   height: 267px;
@@ -170,6 +176,7 @@ export const Card = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    /* width: 100%; */
     
   }
 

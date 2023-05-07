@@ -4,7 +4,7 @@ import fundoPerto from '../../images/fundoPreto.jpg'
 
 
 export const ContainerHeader = styled.div`
-    width: 100%;
+    width: 100vw;
     height: 6vh;
     position: relative;
     display: flex;

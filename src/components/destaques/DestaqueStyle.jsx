@@ -29,7 +29,7 @@ export const ContainerDestaques = styled.div`
     max-width: 100vw;
     height: 100vh;
     gap: 5rem;
-    padding: 32px 40px;
+    /* padding: 32px 40px; */
     background: none;
 
     @media (max-width: 920px){

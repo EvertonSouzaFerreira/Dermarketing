@@ -4,13 +4,14 @@ import styled from "styled-components";
 import fundoDescricao from '../../images/fundoPreto.jpg'
 
 export const ContainerMain = styled.div`
-    width: 100%;
+    max-width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     color: #F3F3F3;
     background-image: url(${fundoDescricao});
     font-family: 'Source Sans 3', sans-serif;
+    
     @media (max-width: 920px){
             width: 100%;
             height: fit-content;
