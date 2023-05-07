@@ -42,7 +42,7 @@ export const ContainerVantagens = styled.div`
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            gap: .5rem;
+            gap: 1.5rem;
             /* margin-bottom: 5rem; */
 
             /* border: solid 3px red; */
@@ -147,6 +147,10 @@ export const ContainerVantagens = styled.div`
                     transform: translate(-50% -50%);
                     width: 80px;
                     height: 80px;
+                    @media (max-width: 920px){
+                        width: 50px;
+                        height: 50px;
+                    }
                 }
             }
 
@@ -167,11 +171,15 @@ export const ContainerVantagens = styled.div`
                 
                 
                 @media (max-width: 920px){
-                width: 268px;
+                width: 100%;
                 height: 41px;
-                justify-content: space-between;
-                
+                justify-content: center;
+               
                 gap: .5px;
+
+                    p{
+                        width: 200px; 
+                    }
 
                 }
 

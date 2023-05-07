@@ -58,7 +58,7 @@ function Vantagens() {
     <ContainerVantagens>
         <div className='containerBtnTitulo'>
             <h4>Conheça as <span>vantagens <br/>  de ter um site profissional!</span></h4>
-            <button>Quero criar meu site profissional</button>
+            {/* <button>Quero criar meu site profissional</button> */}
         </div>
         <ul>
       {items.map((item) => (
