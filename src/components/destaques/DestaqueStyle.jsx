@@ -55,7 +55,7 @@ export const ContainerDestaques = styled.div`
               /* align-items: center;
               justify-content: center; */
               gap: 1rem;
-              
+              padding: 0.5rem;
             }
             .caroussel{
               cursor: default;

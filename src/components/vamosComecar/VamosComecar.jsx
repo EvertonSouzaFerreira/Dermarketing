@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { useInView } from 'react-intersection-observer';
+
 //styled
 import {ContainerVamosComecar} from './VamosComecarStyled'
 
@@ -9,6 +11,9 @@ import imgDoctor from '../../images/img-doctor 1.png'
 import SiglaLogo from '../../images/SiglaLogo.png'
 
 function VamosComecar() {
+
+
+  
   return (
     <ContainerVamosComecar id='divulgue'>
 

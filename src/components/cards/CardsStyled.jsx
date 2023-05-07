@@ -36,7 +36,7 @@ export const ContainerCards = styled.div`
     
     gap: 5rem;
     padding: 32px 40px;
-    border: solid red 3px;
+    /* border: solid red 3px; */
    
 
     @media (max-width: 920px){
@@ -52,7 +52,7 @@ export const ContainerCards = styled.div`
     .cards{
         display: flex;
         gap: 1rem;
-        border: solid red 3px;
+       
         @media (max-width: 920px){
             width: 100%;
             
@@ -71,7 +71,7 @@ export const ContainerCards = styled.div`
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        border: solid red 3px;
+        
         font-family: 'Source Sans 3';
         @media (max-width: 920px){
         
@@ -147,7 +147,7 @@ export const Card = styled.div`
   /* Sombra */
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  border: solid red 3px;
+  
   animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.7s ease-in` : "none"};
   @media (max-width: 920px){
        animation: none;

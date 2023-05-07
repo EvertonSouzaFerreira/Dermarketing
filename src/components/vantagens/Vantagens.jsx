@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useInView } from 'react-intersection-observer';
 
 //imagens
 import numero1 from '../../images/numero1.png'
@@ -11,6 +12,28 @@ import errow from '../../images/errow.png'
 import { ContainerVantagens } from './VantagensStyled'
 
 function Vantagens() {
+
+  const [isInView, setIsInView] = useState(false);
+  
+    const { ref, inView } = useInView({
+        threshold: 0,
+  });
+
+    useEffect(() => {
+        if (inView) {
+        setIsInView(true);
+        }
+    }, [inView]);
+
+    const items = [
+      { id: 1, text: 'Aumento da visibilidade', delay: 0, imagem: numero1 },
+      { id: 2, text: 'Construção de Autoridade', delay: 0.2, imagem: numero2 },
+      { id: 3, text: 'Atrair mais pacientes', delay: 0.4, imagem: numero3 },
+      { id: 4, text: 'Inspiração e credibilidade', delay: 0.6, imagem: numero4 },
+      { id: 5, text: 'Destacar-se da concorrência', delay: 0.8, imagem: numero5 },
+    ];
+
+    console.log(isInView);
 
   const [width, setWidth] = useState(false)
 
@@ -38,12 +61,20 @@ function Vantagens() {
             <button>Quero criar meu site profissional</button>
         </div>
         <ul>
-            <li><img src={numero1} alt="" /><p>Aumento da visibilidade</p> </li>
-            <li><img src={numero2} alt="" /><p>Construção de Autoridade</p></li>
-            <li><img src={numero3} alt="" /><p>Atrair mais pacientes</p></li>
-            <li><img src={numero4} alt="" /><p>Inspiração e credibilidade</p></li>
-            <li><img src={numero5} alt="" /><p>Destacar-se da concorrência</p></li>
-        </ul>
+      {items.map((item) => (
+        <div key={item.id} className='containerLi'>
+          <img src={item.imagem} alt={`Número ${item.id}`} />
+          <li
+            ref={ref}
+            isInView={isInView} 
+            style={{ animationDelay: `${item.delay}s` }}
+            
+          >
+            <p>{item.text}</p>
+          </li>
+        </div>
+      ))}
+    </ul>
 
         {!width && <div className='errow'>
             <img src={errow} alt="" />
