@@ -15,6 +15,7 @@ import DermarVantagens from "./components/DermarVantagens/DermarVantagens";
 import VamosComecar from "./components/vamosComecar/VamosComecar";
 import Footer from "./components/footer/Footer";
 import Depoimentos from "./components/depoimentos/Depoimentos";
+import Carta from "./components/carta/Carta";
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -51,6 +52,8 @@ function App() {
       <DermarVantagens />
       <VamosComecar />
       <Footer />
+
+      {/* <Carta /> */}
     </>
   );
 }

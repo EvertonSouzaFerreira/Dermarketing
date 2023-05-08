@@ -1,6 +1,6 @@
 import styled from "styled-components";
-
 import { keyframes, css } from 'styled-components'
+
 
 const moveFromLeft = keyframes`
 from {
@@ -123,6 +123,8 @@ export const ContainerVantagens = styled.div`
             width: 410px;
             /* background-color: #CCA42D; */
             gap: 2.5rem;
+
+           
             
             @media (max-width: 920px){
                 width: 290px;
@@ -166,8 +168,8 @@ export const ContainerVantagens = styled.div`
                 border-radius: 44.1969px;
                 color: #FFFFFF;
                 transform-origin: left;
-                animation: ${moveFromLeft} 1s ease-in-out;
-                /* animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 1s ease-in-out` : "none"}; */
+                /* animation: ${moveFromLeft} 1s ease-in-out; */
+                animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 1.5s ease-in-out` : "none"};
                 
                 
                 @media (max-width: 920px){
@@ -215,6 +217,7 @@ export const ContainerVantagens = styled.div`
             align-items: flex-start;
             /* transform-origin: bottom center; */
             animation: ${move} 2s infinite linear;
+            
         }
 
 `

@@ -147,7 +147,6 @@ export const Card = styled.div`
   /* Sombra */
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  
   animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.7s ease-in` : "none"};
   @media (max-width: 920px){
        animation: none;

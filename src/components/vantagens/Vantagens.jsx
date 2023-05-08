@@ -14,16 +14,16 @@ import { ContainerVantagens } from './VantagensStyled'
 function Vantagens() {
 
   const [isInView, setIsInView] = useState(false);
-  
     const { ref, inView } = useInView({
         threshold: 0,
-  });
+    });
 
     useEffect(() => {
         if (inView) {
         setIsInView(true);
         }
     }, [inView]);
+
 
     const items = [
       { id: 1, text: 'Aumento da visibilidade', delay: 0, imagem: numero1 },
@@ -55,7 +55,7 @@ function Vantagens() {
   }, []);
 
   return (
-    <ContainerVantagens>
+    <ContainerVantagens ref={ref} isInView={isInView}>
         <div className='containerBtnTitulo'>
             <h4>Conheça as <span>vantagens <br/>  de ter um site profissional!</span></h4>
             {/* <button>Quero criar meu site profissional</button> */}
@@ -65,7 +65,7 @@ function Vantagens() {
         <div key={item.id} className='containerLi'>
           <img src={item.imagem} alt={`Número ${item.id}`} />
           <li
-            ref={ref}
+            
             isInView={isInView} 
             style={{ animationDelay: `${item.delay}s` }}
             

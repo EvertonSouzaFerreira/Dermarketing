@@ -25,7 +25,7 @@ function Cards() {
 
 
   return (
-    <ContainerCards id='servicos'>
+    <ContainerCards id='servicos' ref={ref}>
 
 
         <div className='containerPergunta'>
@@ -33,7 +33,7 @@ function Cards() {
             sua empresa</span>? </h3>
         </div>
         <div className='cards'>
-        <Card ref={ref} isInView={isInView} className='card1' >
+        <Card  isInView={isInView} className='card1' >
             <h2>Alcance posições no google
                 e fique acima da concorrência
             </h2>
@@ -55,7 +55,7 @@ function Cards() {
             </p>
             <img src={destaque} alt="" />
         </Card>
-        <Card ref={ref} isInView={isInView} className='card2'>
+        <Card isInView={isInView} className='card2'>
             <h2>Atraia ainda mais<br/>
                 pacientes particulares
             </h2>
