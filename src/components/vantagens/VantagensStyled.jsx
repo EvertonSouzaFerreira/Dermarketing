@@ -196,7 +196,7 @@ export const ContainerVantagens = styled.div`
                     }
                 
                     p{
-                        width: 171px;
+                        width: 181px;
                         height: 21px;
                         font-size: 14px;
                         line-height: 125%;
