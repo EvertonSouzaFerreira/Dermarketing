@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { keyframes, css } from 'styled-components'
 
 
-const moveFromLeft = keyframes`
+const moveRotate = keyframes`
 0% {
     transform: rotateY(0deg);
 }
@@ -13,35 +13,33 @@ const moveFromLeft = keyframes`
 
 
 export const ContainerCarta = styled.div`
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        max-width: 1147px;
         
 
-#carta{
     display: flex;
     position: relative;
+    
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /* padding: 16px 48px; */
-  
+    
     gap: .1px;
     width: 355px;
     height: 267px;
     transform-style: preserve-3d;
     transition: all .9s;
-    animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 1.2s ease-in forwards` : "none"};
+    animation: ${({ isInView }) =>isInView ? css `${moveRotate} 1.2s ease-in forwards` : "none"};
 
+    @media (max-width: 920px) {
+        animation: none;
+        transform: rotateY(180deg);
+    }
     /* :hover{
        
         transform: rotateY(180deg); 
     } */
 
-}
+
 
 
 .face{
@@ -52,7 +50,7 @@ export const ContainerCarta = styled.div`
     align-items: center;
     color: white;
     position: absolute;
-
+    
     
 }
 
@@ -66,7 +64,7 @@ export const ContainerCarta = styled.div`
     background: #121212;
     backface-visibility: hidden;
     box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
-  border-radius: 12px;
+    border-radius: 12px;
 }
 
 .flip{

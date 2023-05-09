@@ -14,7 +14,9 @@ import numeroAzul3 from '../../images/numeroAzul3.png'
 import numeroAzul4 from '../../images/numeroAzul4.png'
 import numeroAzul5 from '../../images/numeroAzul5.png'
 import numeroAzul6 from '../../images/numeroAzul6.png'
-import Carta from '../carta/Carta';
+// import Carta from '../carta/Carta';
+import logo from '../../images/SiglaLogo.png'
+import { ContainerCarta } from '../carta/CartaStyled';
 
 
 
@@ -85,15 +87,30 @@ function DermarVantagens() {
                 drag='x'
                 dragConstraints={{right:0, left: -widthScroll}}
                 >
-                {!width ?<Carta/>:
-                cards.map((card) => {
+                {/* <Carta/> */}
+
+                {cards.map((card) => {
                     return(
-                    <Card ref={ref} isInView={isInView}>
-                        <div>
+                    <Card style={{border: 'none'}} ref={ref} isInView={isInView}>
+                        <ContainerCarta isInView={isInView} id='carta' className='' style={{ animationDelay: `${card.delay}s` }}>
+                            <div className='face' id='front'>
+                            <Card >
+                                <div>
+                                    <img src={card.imagem} alt="" />
+                                    <h2>{card.title}</h2>
+                                </div>
+                                <p>{card.text}</p>
+                            </Card>
+                            </div>
+                            <div className='face' id='back'>
+                                    <img src={logo} alt="" />
+                            </div>
+                        </ContainerCarta>
+                        {/* <div>
                             <img src={card.imagem} alt="" />
                             <h2>{card.title}</h2>
                         </div>
-                        <p>{card.text}</p>
+                        <p>{card.text}</p> */}
                     </Card>)
                 })}
 

@@ -48,7 +48,7 @@ function Carta() {
 
     {cards.map((card) => {
         return(
-            <Card id='carta' className='' style={{ animationDelay: `${card.delay}s` }}>
+        <Card id='carta' className='' style={{ animationDelay: `${card.delay}s` }}>
         <div className='face' id='front'>
         <Card >
             <div>

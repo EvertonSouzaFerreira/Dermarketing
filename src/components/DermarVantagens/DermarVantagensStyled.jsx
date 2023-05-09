@@ -2,6 +2,14 @@ import styled from "styled-components";
 
 import { keyframes, css } from 'styled-components'
 
+const moveRotate = keyframes`
+0% {
+    transform: rotateY(0deg);
+}
+100% {
+    transform: rotateY(180deg);
+}
+`;
 
 
 const moveFromLeft = keyframes`
@@ -167,7 +175,7 @@ export const Card = styled.div`
   /* Sombra */
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 0.7s ease-in` : "none"};
+  
   @media (max-width: 920px) {
            animation: none;
             }
@@ -184,12 +192,7 @@ export const Card = styled.div`
     padding-left: 1rem;
   }
 
-  &.card2 {
-    animation: ${({ isInView }) =>isInView ? css`${moveFromRight} 0.8s ease-in` : "none"};
-    @media (max-width: 920px) {
-           animation: none;
-            }
-  }
+
     
     h2{
         width: 318px;

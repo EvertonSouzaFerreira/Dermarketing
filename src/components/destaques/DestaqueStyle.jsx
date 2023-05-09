@@ -31,12 +31,12 @@ export const ContainerDestaques = styled.div`
     gap: 5rem;
     /* padding: 32px 40px; */
     background: none;
-
+    
     @media (max-width: 920px){
             
             height: fit-content;
             margin-top: 10rem;
-            
+            /* padding-left: 2rem; */
             justify-content: center;
             align-items: center;
             
@@ -59,6 +59,7 @@ export const ContainerDestaques = styled.div`
             }
             .caroussel{
               cursor: default;
+              padding-left: 1rem;
               overflow: visible;
             }
        
