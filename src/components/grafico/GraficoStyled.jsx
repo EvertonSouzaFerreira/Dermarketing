@@ -10,6 +10,7 @@ export const ContainerGraficos = styled.div`
     align-items: center;
     max-width: 100vw;
     height: 100vh;
+    background: #171717;
     @media (max-width: 920px){
             padding: 1rem;
             height: fit-content;

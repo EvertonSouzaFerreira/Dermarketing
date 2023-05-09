@@ -24,13 +24,30 @@ export const ContainerDestaques = styled.div`
     display: flex;
     color: white;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     max-width: 100vw;
     height: 100vh;
     gap: 5rem;
     /* padding: 32px 40px; */
-    background: none;
+    background: #171717;
+    button{
+            width: 366px;
+            height: 42px;
+            background: #0051FF;
+            border: none;
+            border-radius: 24.3624px;
+            color: #DFDFDF;
+            cursor: pointer;
+            font-family: 'Source Sans 3';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            :hover{
+              background: #2469FF;
+            }
+
+        }
     
     @media (max-width: 920px){
             
@@ -90,6 +107,9 @@ export const ContainerDestaques = styled.div`
         h4{
           max-width: 284px;
         }
+        img{
+          width: 250px;
+        }
 
         @media (max-width: 920px){
             width: 100vw;
@@ -135,6 +155,7 @@ export const Card = styled.div`
   height: 305px;
   cursor: pointer;
   border: 1px solid #E4B528;
+  background: #252525;
 /* Sombra */
 
   filter: drop-shadow(8px 4px 21px rgba(0, 0, 0, 0.5));

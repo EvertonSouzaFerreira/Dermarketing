@@ -5,12 +5,12 @@ export const ContainerAnuncio = styled.div`
     display: flex;
     color: white;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     max-width: 100vw;
     height: 100vh;
-    
-    gap: 10rem;
+    background: #171717;
+    gap: 5rem;
     
     @media (max-width: 920px) {
             gap: 1rem;

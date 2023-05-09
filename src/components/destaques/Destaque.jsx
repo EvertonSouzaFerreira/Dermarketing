@@ -73,6 +73,7 @@ function Destaque() {
             </motion.div>
         
         </div>
+        <button>Quero meu site profissional</button>
     </ContainerDestaques>
   )
 }

@@ -29,12 +29,12 @@ const move = keyframes`
 
 export const ContainerVantagens = styled.div`
     max-width: 100vw;
-    height: 100vh;
+    height: fit-content;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    /* background: blue; */
-
+    justify-content: space-between;
+    background: #171717;
+    
 
     @media (max-width: 920px){
             height: fit-content;
@@ -168,6 +168,7 @@ export const ContainerVantagens = styled.div`
                 border-radius: 44.1969px;
                 color: #FFFFFF;
                 transform-origin: left;
+                box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
                 /* animation: ${moveFromLeft} 1s ease-in-out; */
                 animation: ${({ isInView }) =>isInView ? css `${moveFromLeft} 1.5s ease-in-out` : "none"};
                 

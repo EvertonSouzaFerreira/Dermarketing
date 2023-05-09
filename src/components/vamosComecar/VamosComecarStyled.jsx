@@ -10,8 +10,27 @@ export const ContainerVamosComecar = styled.div`
     /* flex-direction: column; */
     align-items: center;
     justify-content: space-evenly;
+    /* background-image: url(${fundoDescricao}); */
+    background-size: contain;
+
+    .container{
+
+    width: 80%;
+    height: 80%;
+    display: flex;
+    color: white;
+    
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
     background-image: url(${fundoDescricao});
     background-size: contain;
+
+    .imgDoctor  {
+            max-height: 100%;
+            max-width: 100%;
+        }    
+    }
 
     @media (max-width: 920px){
         margin-top: 5rem;

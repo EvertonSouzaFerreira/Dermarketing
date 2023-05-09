@@ -8,6 +8,8 @@ import { ContainerDepoimentos } from './DepoimentosStyled'
 
 //imagens
 import avatar1 from '../../images/avatar1.png'
+import avatar2 from '../../images/avatar2.png'
+import avatar3 from '../../images/avatar3.png'
 import stars from '../../images/stars.png'
 
 function Depoimentos() {
@@ -41,21 +43,21 @@ function Depoimentos() {
                     </div>
             </div>
             <div className='card'>
-                    <p>"Ter encontrado a Dermarketing foi uma das melhores coisas para o meu consultório. Eu não sabia até então o quão necessário era o marketing para o meu negócio. Pude ver os resultados em pouco tempo. Agradeço demais a toda a equipe."</p>
+                    <p>"A princípio, recuei. Entretanto, tive que me adaptar ao mercado digital e, nisso, conheci o Lucas, um dos donos da Dermarketing. Foi incrível a experiência e posso dizer que o marketing me ajudou demais a conseguir novos pacientes!"</p>
                     <img src={stars} alt="" />
                     <div className='containerAvatar'>
-                        <img src={avatar1} alt="" />
-                        <h5>Janaina Lentz</h5>
-                        <p>Dermatologista</p>
+                        <img src={avatar2} alt="" />
+                        <h5>Patrick Reis</h5>
+                        <p>Cirurgião Dentista</p>
                     </div>
             </div>
             <div className='card'>
-                    <p>"Ter encontrado a Dermarketing foi uma das melhores coisas para o meu consultório. Eu não sabia até então o quão necessário era o marketing para o meu negócio. Pude ver os resultados em pouco tempo. Agradeço demais a toda a equipe."</p>
+                    <p>"Sou suspeita para falar, mas creio que ter a Dermarketing no meu consultório tem me deixado muito grata. Uma equipe focada apenas na área estética é fundamental, pois é muito difícil encontrar profissionais capacitados."</p>
                     <img src={stars} alt="" />
                     <div className='containerAvatar'>
-                        <img src={avatar1} alt="" />
-                        <h5>Janaina Lentz</h5>
-                        <p>Dermatologista</p>
+                        <img src={avatar3} alt="" />
+                        <h5>Beatriz Rossi</h5>
+                        <p>Cirurgiã Plástica</p>
                     </div>
             </div>
 

@@ -8,9 +8,9 @@ export const ContainerIdentidade = styled.div`
     justify-content: center;
     flex-direction: column;
     max-width: 100vw;
-    height: 100vh;
+    height: fit-content;
     gap: 5rem;
-    
+  
     @media (max-width: 920px) {
         min-height: fit-content;
     }

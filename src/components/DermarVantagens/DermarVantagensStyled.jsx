@@ -2,33 +2,9 @@ import styled from "styled-components";
 
 import { keyframes, css } from 'styled-components'
 
-const moveRotate = keyframes`
-0% {
-    transform: rotateY(0deg);
-}
-100% {
-    transform: rotateY(180deg);
-}
-`;
 
 
-const moveFromLeft = keyframes`
-from {
-  transform: translateX(-100%);
-}
-to {
-  transform: translateX(0);
-}
-`;
 
-const moveFromRight = keyframes`
-from {
-  transform: translateX(100%);
-}
-to {
-  transform: translateX(0);
-}
-`;
 
 
 export const ContainerDermaVantagens = styled.div`
@@ -38,12 +14,12 @@ export const ContainerDermaVantagens = styled.div`
     justify-content: center;
     flex-direction: column;
     max-width: 100vw;
-    /* height: 100vh; */
+    height: 100%;
     /* max-height: 100vh; */
     gap: 2rem;
     /* padding: 32px 40px; */
-   
-
+    background: #171717;
+    padding-bottom: 1rem;
     @media (max-width: 920px) {
             margin-top: 3rem;
             padding: 0;
@@ -175,7 +151,7 @@ export const Card = styled.div`
   /* Sombra */
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  
+  background: #252525;
   @media (max-width: 920px) {
            animation: none;
             }
@@ -217,9 +193,7 @@ export const Card = styled.div`
         background: none;
         line-height: 150%;
     }
-    :hover{
-        background: #272727;
-    }
+    
 
     @media (max-width: 920px){
         width: 355px;
