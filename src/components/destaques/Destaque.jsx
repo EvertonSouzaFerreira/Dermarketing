@@ -54,16 +54,16 @@ function Destaque() {
                         
                     </Card>
                     <Card>
-                        <h2>1. Design Profissional e Personalizado
+                        <h2>2. Conteúdo relevante e informativo
                         </h2>
-                        <p>Nossa equipe de designers experientes cria sites personalizados e profissionais para práticas médicas, que se destacam da concorrência e atraem pacientes particulares em busca de atendimento de qualidade.
-
+                        <p>
+                            Criamos conteúdo informativo e relevante sobre seus serviços médicos e informações importantes para pacientes. Isso melhora a experiência do paciente e aumenta a conversão de pacientes particulares.
 
                         </p>
                         
                     </Card>
                     <Card ref={ref} isInView={isInView} className='card2'>
-                        <h2>2. Segurança e <br/> Conformidade com CFM
+                        <h2>3. Segurança e <br/> Conformidade com CFM
                         </h2>
                         <p>Garantimos que nossos sites sejam seguros e atendam às normas, incluindo a LGPD e as normas do CFM. Navegação segura aumenta a credibilidade e confiança na sua prática médica.
                         </p>

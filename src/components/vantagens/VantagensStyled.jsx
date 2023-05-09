@@ -44,7 +44,7 @@ export const ContainerVantagens = styled.div`
             align-items: center;
             gap: 1.5rem;
             /* margin-bottom: 5rem; */
-
+            padding-top: 3rem;
             /* border: solid 3px red; */
         }
 

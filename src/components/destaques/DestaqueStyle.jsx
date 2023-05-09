@@ -31,6 +31,7 @@ export const ContainerDestaques = styled.div`
     gap: 5rem;
     /* padding: 32px 40px; */
     background: #171717;
+    padding: 1rem;
     button{
             width: 366px;
             height: 42px;
@@ -43,6 +44,7 @@ export const ContainerDestaques = styled.div`
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
+            
             :hover{
               background: #2469FF;
             }
@@ -52,11 +54,11 @@ export const ContainerDestaques = styled.div`
     @media (max-width: 920px){
             
             height: fit-content;
-            margin-top: 10rem;
+            
             /* padding-left: 2rem; */
             justify-content: center;
             align-items: center;
-            
+           
             margin-bottom: 5rem;
 
             /* border: solid 3px red; */

@@ -11,7 +11,7 @@ export const ContainerAnuncio = styled.div`
     height: 100vh;
     background: #171717;
     gap: 5rem;
-    
+    padding: 1rem;
     @media (max-width: 920px) {
             gap: 1rem;
             
@@ -35,9 +35,10 @@ export const ContainerAnuncio = styled.div`
         }
 
         @media (max-width: 920px) {
+            align-items: center;
+            justify-content: center;
             img{
-                width: 30px;
-                height: 71px;
+                display: none;
             }
 
             h5{
@@ -45,7 +46,11 @@ export const ContainerAnuncio = styled.div`
                 width: 356px;
                 height: 94px;
                 font-size: 15px;
+                
             }
+            .alinhamentoRight{
+            text-align: center;
+        }
         }
     }
 
@@ -57,6 +62,7 @@ export const ContainerAnuncio = styled.div`
         font-style: normal;
         font-weight: 600;
         font-size: 32px;
+        
         span{
             color: #E4B528;
         }
@@ -71,8 +77,8 @@ export const ContainerAnuncio = styled.div`
     
         @media (max-width: 920px) {
                 
-                flex-direction: column-reverse;
-                
+                flex-direction: column;
+                gap: 1rem;
                 
             }
         
@@ -85,7 +91,7 @@ export const ContainerAnuncio = styled.div`
             
             padding-left: 8rem;
             
-            background: #0C0C0C;
+           
 
             h5{
                 max-width: 250px;

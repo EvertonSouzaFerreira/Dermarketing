@@ -22,8 +22,8 @@ export const ContainerDermaVantagens = styled.div`
     padding-bottom: 1rem;
     @media (max-width: 920px) {
             margin-top: 3rem;
-            padding: 0;
-            background: #121212;
+            padding-bottom: 2rem;
+            
             }
 
     .cards{
@@ -47,6 +47,7 @@ export const ContainerDermaVantagens = styled.div`
               cursor: default;
               overflow: visible;
               padding-left: 1rem;
+              
             }
        
         @media (max-width: 920px){
@@ -83,7 +84,7 @@ export const ContainerDermaVantagens = styled.div`
                 /* width: 30px;
                 height: 94px; */
                 display: none;
-                border: solid red 3px;
+               
             }
 
             h5{
@@ -91,7 +92,7 @@ export const ContainerDermaVantagens = styled.div`
                 max-width: 334px;
                 height: 67px;
                 font-size: 18px;
-                border: solid red 3px;
+                
             }
         }
         
@@ -173,13 +174,13 @@ export const Card = styled.div`
     h2{
         width: 318px;
         /* height: 75px; */
-        background: #121212;
+        
         font-family: 'Source Sans 3';
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
         color: #EEC65F;
-        background: none;
+        
         text-align: center;
         padding-right: 2rem;
     }
