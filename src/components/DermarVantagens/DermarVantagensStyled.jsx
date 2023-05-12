@@ -19,7 +19,7 @@ export const ContainerDermaVantagens = styled.div`
     gap: 2rem;
     /* padding: 32px 40px; */
     background: #171717;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     @media (max-width: 920px) {
             margin-top: 3rem;
             padding-bottom: 2rem;
@@ -59,7 +59,7 @@ export const ContainerDermaVantagens = styled.div`
             }
 
             .inner{
-              padding: 0.5rem;
+              padding-left: 2.5rem;
               display: flex;
               flex-wrap: nowrap;
               flex-direction: row;
@@ -145,7 +145,7 @@ export const Card = styled.div`
   
   gap: .1px;
   width: 355px;
-  height: 267px;
+  height: 297px;
   cursor: pointer;
   /* Box Defaut */
   border: 1px solid #E4B528;
@@ -153,6 +153,10 @@ export const Card = styled.div`
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
   background: #252525;
+  background: none;
+  div{
+    gap: .5rem;
+  }
   @media (max-width: 920px) {
            animation: none;
             }
@@ -181,17 +185,17 @@ export const Card = styled.div`
         font-size: 24px;
         color: #EEC65F;
         
-        text-align: center;
+        
         padding-right: 2rem;
     }
 
     p{
         width: 220px;
-        /* height: 98px; */
-        background: #121212;
+        height: 173px;
+        
         color: white;
-        text-align: center;
-        background: none;
+        
+        
         line-height: 150%;
     }
     

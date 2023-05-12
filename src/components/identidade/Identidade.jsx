@@ -14,7 +14,7 @@ function Identidade() {
     <ContainerIdentidade>
         <div className='fundoTitulo'>
                 <img src={fundoTitulo} alt="" />
-            <h5>Mas apenas isso não basta: <br/><span>Uma identidade visual </span> bem elaborada <br/> <span>torna tudo muito mais atraente</span> </h5>            
+            <h5>Mas apenas isso não basta: <br/>Uma identidade visual bem elaborada <br/> torna tudo muito mais atraente </h5>            
         </div>
         <div className='containerImgDescription'>
             <div className='imgs'>
@@ -23,9 +23,9 @@ function Identidade() {
             </div>
             <div className='descricao'>
                 <h5>
-                   <span>Crie uma imagem forte e memorável para sua marca, conquiste a confiança e fidelidade dos  clientes</span> e aumente a percepção de valor dos seus produtos e serviços.
+                   <span>Impressione seu público-alvo com uma identidade visual irresistível! Construa uma marca memorável que conquiste a confiança e fidelidade dos clientes.</span> 
                 </h5>
-                <p> <b> Ter uma boa identidade visual é fundamental para construir uma imagem de marca forte e impactante, que seja memorável, atraente e profissional.</b> Uma identidade visual bem elaborada ajuda a aumentar a percepção de valor da marca, conquistar a confiança e fidelidade dos clientes e, consequentemente, gerar mais vendas.<b> Além disso, a identidade visual deve estar presente em todos os pontos de contato com os clientes, criando uma experiência de marca consistente e coerente.</b></p>
+                <p> Uma identidade visual bem elaborada é fundamental para uma marca forte, memorável e profissional. Ela aumenta a percepção de valor, conquista a confiança e fidelidade dos clientes, impulsionando as vendas. Além disso, a identidade visual deve estar presente em todos os pontos de contato, proporcionando uma experiência consistente e coerente.</p>
 
                 <button>Quero minha identidade visual</button>
             </div>

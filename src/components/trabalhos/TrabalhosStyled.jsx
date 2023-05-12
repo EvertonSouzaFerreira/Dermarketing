@@ -4,17 +4,18 @@ import styled from "styled-components";
 export const ContainerTrabalhos = styled.div`
     display: flex;
     max-width: 100vw;
-    height: 100vh;
+    height: fit-content;
     color: white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 4rem;
-
+    padding: 3rem;
     @media (max-width: 920px){
             height: fit-content;
             margin-top: 6rem;
             gap: 1rem;
+            padding: 0;
             /* border: solid 3px red; */
         }
 
@@ -52,8 +53,8 @@ export const ContainerTrabalhos = styled.div`
 
 
             @media (max-width: 920px){
-                width: 251.6px;
-                height: 48.64px;
+                width: 177px;
+                height: 30px;
                 }
         }
 
@@ -64,8 +65,8 @@ export const ContainerCardsTrabalhos = styled.div`
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: center;
-    gap: 2rem;
-
+    gap: 6rem;
+    
     @media (max-width: 920px){
             flex-wrap: wrap;
             gap: 5rem;
@@ -85,7 +86,10 @@ export const ContainerCardsTrabalhos = styled.div`
     .containerCardTrabalho{
         max-width: 375px;
         text-align: center;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
         @media (max-width: 920px){
             display: flex;
             flex-direction: column;

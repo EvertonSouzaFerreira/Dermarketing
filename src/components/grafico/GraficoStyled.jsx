@@ -62,7 +62,7 @@ export const ContainerGraficos = styled.div`
         span{
             background: none;
             text-decoration: underline;
-            text-decoration-color:#EEC65F;;
+            text-decoration-color:#E4B528;
             font-weight: 600;
         }
         
@@ -160,7 +160,7 @@ export const GraficoImg = styled.div`
         font-weight: 600;
         font-size: 48px;
         line-height: 125%;
-        color: #EEC65F;
+        color: #E4B528;
 
         @media (max-width: 920px){
             width: 222.81px;

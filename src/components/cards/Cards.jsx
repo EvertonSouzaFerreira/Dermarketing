@@ -29,8 +29,8 @@ function Cards() {
 
 
         <div className='containerPergunta'>
-            <h3>Como a Dermarketing <span>pode ajudar você ou
-            sua empresa</span>? </h3>
+            <h3>Como a Dermarketing<br/> pode ajudar você ou
+            sua empresa? </h3>
         </div>
         <div className='cards'>
         <Card  isInView={isInView} className='card1' >
@@ -42,7 +42,7 @@ function Cards() {
                 que já procuram pelo o seu
                 serviço e conquiste mais pacientes.
             </p>
-            <img src={posicao} alt="" />
+            <img className='posicao' src={posicao} alt="" />
         </Card>
         <Card>
             <h2>Destaque-se da<br/>
@@ -53,7 +53,7 @@ function Cards() {
                 profissional e exposição nacional.
 
             </p>
-            <img src={destaque} alt="" />
+            <img className='destaque' src={destaque} alt="" />
         </Card>
         <Card isInView={isInView} className='card2'>
             <h2>Atraia ainda mais<br/>

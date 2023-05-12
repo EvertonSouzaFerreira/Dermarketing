@@ -15,6 +15,11 @@ export const ContainerHeader = styled.div`
     padding: 32px 40px;
     position: fixed;
     z-index: 10;
+    img{
+        width: 161px;
+        height: 16px;
+
+    }
     @media (width < 900px){
         img{
         width: 41px;
@@ -39,7 +44,7 @@ export const ContainerHeader = styled.div`
         }
         button{
             width: 197px;
-            height: 43.39px;
+            height: 35px;
             font-family: 'Source Sans 3';
             font-style: normal;
             font-weight: 600;

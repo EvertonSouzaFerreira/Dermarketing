@@ -77,8 +77,8 @@ function DermarVantagens() {
     <ContainerDermaVantagens id='Derma'>
         <div className='fundoTitulo'>
                 <img src={fundoTitulo} alt="" />
-            <h5>Com anúncios feito no Google <br/><span>você pode alcançar muito  
-                mais pacientes! </span> A Dermarketing
+            <h5>Com anúncios feito no Google <br/>você pode alcançar muito  
+                mais pacientes! A Dermarketing
                 te mostra as vantagens! </h5>            
         </div>
          <div className='cards'>
@@ -91,7 +91,7 @@ function DermarVantagens() {
 
                 {cards.map((card) => {
                     return(
-                    <Card style={{border: 'none'}} ref={ref} isInView={isInView}>
+                    <div style={{border: 'none'}} ref={ref} isInView={isInView}>
                         <ContainerCarta isInView={isInView} id='carta' className='' style={{ animationDelay: `${card.delay}s` }}>
                             <div className='face' id='front'>
                             <Card >
@@ -111,7 +111,7 @@ function DermarVantagens() {
                             <h2>{card.title}</h2>
                         </div>
                         <p>{card.text}</p> */}
-                    </Card>)
+                    </div>)
                 })}
 
                 {/* <Card ref={ref} isInView={isInView} className='card1' >
@@ -184,7 +184,7 @@ function DermarVantagens() {
             </div>
             
 
-        <button>Quero atrair mais clientes</button>
+        {/* <button>Quero atrair mais clientes</button> */}
     </ContainerDermaVantagens>
   )
 }

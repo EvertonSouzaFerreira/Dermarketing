@@ -37,6 +37,7 @@ export const ContainerAnuncio = styled.div`
         @media (max-width: 920px) {
             align-items: center;
             justify-content: center;
+            
             img{
                 display: none;
             }

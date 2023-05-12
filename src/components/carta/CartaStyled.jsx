@@ -25,7 +25,7 @@ export const ContainerCarta = styled.div`
     
     gap: .1px;
     width: 355px;
-    height: 267px;
+    height: 297px;
     transform-style: preserve-3d;
     transition: all .9s;
     animation: ${({ isInView }) =>isInView ? css `${moveRotate} 1.2s ease-in forwards` : "none"};
@@ -44,13 +44,13 @@ export const ContainerCarta = styled.div`
 
 .face{
     width: 355px;
-    height: 267px;
+    height: 297px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     position: absolute;
-    
+    backface-visibility: hidden;
     
 }
 
@@ -61,7 +61,7 @@ export const ContainerCarta = styled.div`
 }
 
 #back{
-    background: #121212;
+    /* background: #121212; */
     backface-visibility: hidden;
     box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
     border-radius: 12px;

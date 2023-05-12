@@ -25,7 +25,7 @@ function Depoimentos() {
 
   return (
     <ContainerDepoimentos>
-        <h5>Conheça alguns depoimentos!</h5>
+        <h5 className='titulo'>Depoimentos de clientes!</h5>
         <div className='cards'>
             <motion.div ref={caroussel} className='caroussel' whileTap={{cursor: 'grabbing'}}>
                 <motion.div className='inner'

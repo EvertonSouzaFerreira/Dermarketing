@@ -11,6 +11,11 @@ export const ContainerMain = styled.div`
     color: #F3F3F3;
     background-image: url(${fundoDescricao});
     font-family: 'Source Sans 3', sans-serif;
+
+    span{
+        font-family: 'Source Sans 3', sans-serif;
+    }
+
     
     @media (max-width: 920px){
             width: 100%;
@@ -76,14 +81,48 @@ export const ContainerMain = styled.div`
         gap: 1rem;
 
         @media (max-width: 920px){
+            width: 279px;
+            height: 264px;
             font-size: 12px;
-            gap: 3rem;
+            gap: 1.5rem;
+            
+
+            .titulo{
+                width: 279px;
+                height: 75px;
+                font-family: 'Source Sans 3';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+            }
+            p{
+                width: 219px;
+                height: 120px;
+
+                font-family: 'Source Sans 3';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 150%;
+            }
+
+            /* h2{
+                width: 279px;
+                height: 75px;
+                font-family: 'Source Sans 3';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px;
+                
+                border: solid red 3px;
+
+            } */
             
         }
         
         span{
-            color:#EEC65F;
-
+            color:#E4B528;
+            
         }
         h1{
             max-width: 545px;
@@ -101,6 +140,7 @@ export const ContainerMain = styled.div`
             font-size: 11px;
             max-width: 279px;
             margin: auto;
+            font-family: 'Source Sans 3', sans-serif;
         }
         }
 
@@ -125,16 +165,19 @@ export const ContainerMain = styled.div`
 
             @media (max-width: 920px){
             margin: auto;
-            width: 207px;
-            height: 43px;
+            width: 157px;
+            height: 30px;
             font-family: 'Source Sans 3';
             font-style: normal;
             font-weight: 600;
-            font-size: 15px;
-            line-height: 26px;
-            padding: 10px 28px;
+            font-size: 12px;
+            line-height: 18px;
+            padding: 10px 18px;
             border: none;
             margin-bottom: 5rem;
+            display: flex;
+            
+            justify-content: center;
             /* identical to box height */
 
             display: flex;
@@ -145,10 +188,7 @@ export const ContainerMain = styled.div`
             color: #DFDFDF;
             cursor: pointer;
 
-            /* Blue */
-
-            background: #0051FF;
-            border-radius: 21px;
+        
         }
         }
     }

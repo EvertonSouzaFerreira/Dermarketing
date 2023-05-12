@@ -33,7 +33,7 @@ export const ContainerCards = styled.div`
     flex-direction: column;
     max-width: 100vw;
     height: 100vh;
-    
+    font-family: 'Source Sans 3';
     gap: 5rem;
     padding: 32px 40px;
     /* border: solid red 3px; */
@@ -106,14 +106,14 @@ export const ContainerCards = styled.div`
         text-align: center;
         font-family: 'Source Sans 3';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
         font-size: 32px;
         color: #E0DEDE;
         background: none;
         span{
             background: none;
-            
-            color:#EEC65F;;
+            font-family: 'Source Sans 3';
+            color:#E4B528;;
             font-weight: 600;
         }
         @media (max-width: 920px){
@@ -134,6 +134,7 @@ export const ContainerCards = styled.div`
 
 export const Card = styled.div`
   display: flex;
+  
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -173,7 +174,7 @@ export const Card = styled.div`
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
-        color: #EEC65F;
+        color: #E4B528;
         background: none;
         text-align: center;
         @media (max-width: 920px){
@@ -208,8 +209,8 @@ export const Card = styled.div`
     }
 
     img{
-      width: 70px;
-      height: 60px;
+      width: 64px;
+      height: 34px;
       @media (max-width: 920px){
         width: 61.05px;
         height: 44.76px;
@@ -217,7 +218,14 @@ export const Card = styled.div`
       
       }
     }
-
+.posicao{
+  width: 61.75px;
+  height: 50.13px;
+}
+.destaque{
+  width: 84.32px;
+  height: 74px;
+}
    
     
 `

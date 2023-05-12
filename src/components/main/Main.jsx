@@ -31,11 +31,11 @@ function Main() {
     <ContainerMain>
         <div className='container-descricao'>
             <div className='descricao'>
-            <h1>Trabalha na área da beleza? <br/>
+            <h2 className='titulo'>Trabalha na área da beleza? <br/>
             <span>A Dermarketing pode te ajudar
                 a alcançar mais pacientes.</span>
-            </h1>
-            <p>Somos uma agência focada apenas em especialistas voltados<br/> para a área da estética,<b> oferecemos um trabalho de excelência atraindo mais clientes para você.</b>
+            </h2>
+            <p>Somos uma agência focada apenas em especialistas voltados para a área da estética,<b> oferecemos um trabalho de excelência atraindo mais clientes para você.</b>
             <span> Prezando por responsabilidade com a LGPD e as normas da CFM.</span></p>
             <button>Quero mais pacientes</button>
             </div>

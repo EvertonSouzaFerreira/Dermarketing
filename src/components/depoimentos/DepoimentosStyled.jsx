@@ -5,7 +5,7 @@ export const ContainerDepoimentos = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     width: 100%;
     height: 100vh;
     /* height: 556px; */
@@ -13,8 +13,26 @@ export const ContainerDepoimentos = styled.div`
     @media (max-width: 920px){
         margin-top: 3rem;
         height: fit-content;
-        
         padding-top: 1rem;
+    }
+    .titulo{
+        width: 598px;
+        height: 21px;
+        text-align: center;
+        color: #E4B528;
+        font-family: 'Source Sans 3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 135%;
+
+        @media (max-width: 920px){
+            width: 260px;
+            height: 25px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 125%;
+    }
     }
     
     h5{
@@ -37,7 +55,7 @@ export const ContainerDepoimentos = styled.div`
               /* align-items: center;
               justify-content: center; */
               gap: 1rem;
-              
+              width: 100%;
             }
             .caroussel{
               cursor: default;
@@ -53,7 +71,7 @@ export const ContainerDepoimentos = styled.div`
             }
 
             .inner{
-              padding: 1.5rem;
+              padding-left: 2.5rem;
               display: flex;
               flex-wrap: nowrap;
               flex-direction: row;

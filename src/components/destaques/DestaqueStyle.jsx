@@ -27,11 +27,11 @@ export const ContainerDestaques = styled.div`
     justify-content: flex-start;
     flex-direction: column;
     max-width: 100vw;
-    height: 100vh;
+    height: fit-content;
     gap: 5rem;
     /* padding: 32px 40px; */
     background: #171717;
-    padding: 1rem;
+    padding-bottom: 2rem;
     button{
             width: 366px;
             height: 42px;
@@ -47,6 +47,16 @@ export const ContainerDestaques = styled.div`
             
             :hover{
               background: #2469FF;
+            }
+
+            @media (max-width: 920px){
+              width: 189.3px;
+              height: 30.45px;
+              font-weight: 600;
+              font-size: 12.7264px;
+              line-height: 18px;
+
+              
             }
 
         }
@@ -78,8 +88,10 @@ export const ContainerDestaques = styled.div`
             }
             .caroussel{
               cursor: default;
-              padding-left: 1rem;
+              padding-left: 1.5rem;
+              
               overflow: visible;
+              
             }
        
         @media (max-width: 920px){
@@ -105,7 +117,9 @@ export const ContainerDestaques = styled.div`
     .fundoTitulo{
         display: flex;
         width: 100%;
-
+        
+      
+     
         h4{
           max-width: 284px;
         }
@@ -133,7 +147,8 @@ export const ContainerDestaques = styled.div`
         font-weight: 600;
         font-size: 32px;
         span{
-            color: #E4B528;
+            
+            font-family: 'Source Sans 3';
         }
 
         @media (max-width: 920px){
@@ -195,7 +210,7 @@ export const Card = styled.div`
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
-        color: #DCDBDB;
+        color: #E4B528;
         
         @media (max-width: 920px){
           width: 263px;
@@ -212,10 +227,11 @@ export const Card = styled.div`
         height: 98px;
         background: #121212;
         color: white;
-        
+        font-family: 'Source Sans 3';
         background: none;
         line-height: 150%;
-
+        font-weight: 400;
+        font-size: 16px;
         @media (max-width: 920px){
           width: 263.36px;
           font-weight: 400;
