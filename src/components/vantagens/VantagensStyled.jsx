@@ -38,13 +38,14 @@ export const ContainerVantagens = styled.div`
 
     @media (max-width: 920px){
             height: fit-content;
-            margin-top: 10rem;
+            margin-top: 3rem;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             gap: 1.5rem;
             /* margin-bottom: 5rem; */
             padding-top: 3rem;
+            padding-bottom: 3rem;
             /* border: solid 3px red; */
         }
 

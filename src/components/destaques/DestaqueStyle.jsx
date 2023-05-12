@@ -69,7 +69,7 @@ export const ContainerDestaques = styled.div`
             justify-content: center;
             align-items: center;
            
-            margin-bottom: 5rem;
+            
 
             /* border: solid 3px red; */
     }
