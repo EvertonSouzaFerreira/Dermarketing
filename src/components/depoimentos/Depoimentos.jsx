@@ -51,7 +51,7 @@ function Depoimentos() {
                         <p>Cirurgião Dentista</p>
                     </div>
             </div>
-            <div className='card'>
+            <div className='card ultimoCard'>
                     <p>"Sou suspeita para falar, mas creio que ter a Dermarketing no meu consultório tem me deixado muito grata. Uma equipe focada apenas na área estética é fundamental, pois é muito difícil encontrar profissionais capacitados."</p>
                     <img src={stars} alt="" />
                     <div className='containerAvatar'>

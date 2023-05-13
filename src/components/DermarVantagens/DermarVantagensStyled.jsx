@@ -3,10 +3,6 @@ import styled from "styled-components";
 import { keyframes, css } from 'styled-components'
 
 
-
-
-
-
 export const ContainerDermaVantagens = styled.div`
      display: flex;
     color: #DFDFDF;
@@ -27,21 +23,17 @@ export const ContainerDermaVantagens = styled.div`
             }
 
     .cards{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        max-width: 1147px;
-       
+      display: flex;
+      flex-direction: column;
+      
         .inner{
               display: flex;
               flex-wrap: wrap;
-              /* align-items: center;
-              justify-content: center; */
-              
-              gap: 1rem;
-           
+              align-items: center;
+              justify-content: center;
+              gap: 2rem;
+              max-width: 1400px;
+             
             }
             .caroussel{
               cursor: default;
@@ -52,6 +44,7 @@ export const ContainerDermaVantagens = styled.div`
        
         @media (max-width: 920px){
             max-width: 410px;
+            margin-right: 3rem;
             .caroussel{
               cursor: grab;
               overflow: hidden;
@@ -59,12 +52,13 @@ export const ContainerDermaVantagens = styled.div`
             }
 
             .inner{
-              padding-left: 2.5rem;
+              padding-left: 1.5rem;
               display: flex;
               flex-wrap: nowrap;
               flex-direction: row;
-              gap: 1rem;
-              
+              gap: 0rem;
+              align-items: center;
+              justify-content: flex-start;
             }
 
         }

@@ -84,11 +84,10 @@ export const ContainerDestaques = styled.div`
               /* align-items: center;
               justify-content: center; */
               gap: 1rem;
-              padding: 0.5rem;
+              width: 100%;
             }
             .caroussel{
               cursor: default;
-              padding-left: 1.5rem;
               
               overflow: visible;
               
@@ -104,7 +103,7 @@ export const ContainerDestaques = styled.div`
             }
 
             .inner{
-              padding: 0.5rem;
+              padding-left: 2.5rem;
               display: flex;
               flex-wrap: nowrap;
               flex-direction: row;
