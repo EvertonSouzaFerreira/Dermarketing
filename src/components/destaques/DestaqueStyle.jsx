@@ -96,6 +96,7 @@ export const ContainerDestaques = styled.div`
        
         @media (max-width: 920px){
             max-width: 410px;
+            margin-right: 3rem;
             .caroussel{
               cursor: grab;
               overflow: hidden;

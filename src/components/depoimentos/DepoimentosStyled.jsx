@@ -15,6 +15,8 @@ export const ContainerDepoimentos = styled.div`
         height: fit-content;
         padding-top: 1rem;
     }
+
+    
     .titulo{
         width: 598px;
         height: 21px;
@@ -49,6 +51,8 @@ export const ContainerDepoimentos = styled.div`
     .cards{
         display: flex;
         flex-direction: column;
+        
+
         .inner{
               display: flex;
               flex-wrap: wrap;
@@ -64,6 +68,7 @@ export const ContainerDepoimentos = styled.div`
        
         @media (max-width: 920px){
             max-width: 410px;
+            margin-right: 3rem;
             .caroussel{
               cursor: grab;
               overflow: hidden;
@@ -80,6 +85,13 @@ export const ContainerDepoimentos = styled.div`
             }
 
         }
+
+        /* .ultimoCard{
+            width: 200px;
+            z-index: 6;
+            border: solid red 2px;
+        } */
+
 
 
         .card{
