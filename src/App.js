@@ -24,9 +24,9 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
     box-sizing: border-box;
     list-style: none;
-    font-family: "Inter", "sans-serif";
+   
     text-decoration: none;
-
+    font-family: 'Source Sans 3';
    
   }
   body{

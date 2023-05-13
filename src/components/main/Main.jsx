@@ -35,7 +35,8 @@ function Main() {
             <span>A Dermarketing pode te ajudar
                 a alcançar mais pacientes.</span>
             </h2>
-            <p>Somos uma agência focada apenas em especialistas voltados para a área da estética,<b> oferecemos um trabalho de excelência atraindo mais clientes para você.</b>
+            <p>Somos uma agência focada apenas em especialistas voltados para a área da estética,
+            <b> oferecemos um trabalho de excelência atraindo mais clientes para você.</b>
             <span> Prezando por responsabilidade com a LGPD e as normas da CFM.</span></p>
             <button>Quero mais pacientes</button>
             </div>

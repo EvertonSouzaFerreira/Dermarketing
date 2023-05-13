@@ -137,11 +137,11 @@ export const Card = styled.div`
   
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 16px 48px;
-  gap: 2px;
+  gap: 1px;
   width: 355px;
-  height: 267px;
+  height: 300px;
   cursor: pointer;
   /* Box Defaut */
   background: #121212;
@@ -163,7 +163,7 @@ export const Card = styled.div`
         width: 100%;
         height: 290px;
         gap: 1px;
-        justify-content: space-between;
+        justify-content: center;
         }
     
     h2{
@@ -189,12 +189,14 @@ export const Card = styled.div`
 
     p{
         width: 220px;
-        height: 98px;
+        height: 128px;
         background: #121212;
+        
         color: white;
         text-align: center;
         background: none;
         line-height: 150%;
+        margin-bottom: 1rem;
         @media (max-width: 920px){
         
           width: 226.79px;
@@ -212,8 +214,8 @@ export const Card = styled.div`
       width: 64px;
       height: 34px;
       @media (max-width: 920px){
-        width: 61.05px;
-        height: 44.76px;
+        width: 61px;
+        height: 40px;
         
       
       }

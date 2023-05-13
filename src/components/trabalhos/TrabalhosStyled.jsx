@@ -114,7 +114,7 @@ export const ContainerCardsTrabalhos = styled.div`
 
         p{
             font-style: normal;
-            font-weight: 700;
+            font-weight: 400;
             font-size: 14px;
             line-height: 150%;
             color: #DFDFDF;
@@ -122,7 +122,7 @@ export const ContainerCardsTrabalhos = styled.div`
             @media (max-width: 920px){
                 width: 313.33px;
                 height: 80px;
-                font-size: 13px;
+                font-size: 14px;
                 
         }
 

@@ -23,7 +23,7 @@ function Trabalhos() {
           <div className='containerCardTrabalho'>
           <img src={trabalhoJadinMulher} alt="" />
           <h5>WEBSITE E POSICIONAMENTO ONLINE</h5>
-          <p><b> Um website é importante para presença online</b>, apresentar marca e produtos, gerar leads e vendas, fornecer suporte, construir autoridade e melhorar visibilidade na busca.</p>
+          <p>Um website é importante para presença online, apresentar marca e produtos, gerar leads e vendas, fornecer suporte, construir autoridade e melhorar visibilidade na busca.</p>
           </div>
           <div className='containerCardTrabalho'>
           <img src={cartoesTrabalhoJardin} alt="" />

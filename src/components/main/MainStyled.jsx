@@ -80,30 +80,35 @@ export const ContainerMain = styled.div`
         flex-direction: column;
         gap: 1rem;
 
+        p{
+            
+        }
+
         @media (max-width: 920px){
             width: 279px;
             height: 264px;
-            font-size: 12px;
+            font-size: 15px;
             gap: 1.5rem;
+            align-items: center;
             
-
             .titulo{
-                width: 279px;
+                width: 379px;
                 height: 75px;
                 font-family: 'Source Sans 3';
                 font-style: normal;
-                font-weight: 600;
-                font-size: 20px;
+                
+                font-weight: 700;
+                font-size: 25px;
             }
             p{
-                width: 219px;
-                height: 120px;
-
+                width: 389px;
+                height: 140px;
+                /* border: solid red 2px; */
                 font-family: 'Source Sans 3';
-                font-style: normal;
+                
                 font-weight: 400;
-                font-size: 13px;
-                line-height: 150%;
+                font-size: 18px;
+                
             }
 
             /* h2{
@@ -137,10 +142,10 @@ export const ContainerMain = styled.div`
             line-height: 150%;
             max-width: 540px;
             @media (max-width: 920px){
-            font-size: 11px;
-            max-width: 279px;
-            margin: auto;
-            font-family: 'Source Sans 3', sans-serif;
+            font-size: 15px;
+            width: 379px;
+            
+            font-family: 'Source Sans 3';
         }
         }
 
