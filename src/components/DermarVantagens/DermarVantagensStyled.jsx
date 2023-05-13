@@ -159,7 +159,12 @@ export const Card = styled.div`
   }
   @media (max-width: 920px) {
            animation: none;
-          
+          width: 300px;
+          min-height: 297px;
+          justify-content: flex-start;
+          padding: 1rem;
+          padding-right: 2px;
+          padding-top: 2rem;
             }
   
   div{
@@ -177,13 +182,13 @@ export const Card = styled.div`
 
     
     h2{
-        width: 318px;
+        width: 280px;
         /* height: 75px; */
         
         font-family: 'Source Sans 3';
         font-style: normal;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 20px;
         color: #EEC65F;
         
         
@@ -201,10 +206,10 @@ export const Card = styled.div`
     }
     
 
-    @media (max-width: 920px){
+    /* @media (max-width: 920px){
         width: 355px;
         height: fit-content;
         padding: 28px 24px;
         
-        }
+        } */
 `

@@ -15,8 +15,8 @@ export const ContainerVamosComecar = styled.div`
 
     .container{
 
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     display: flex;
     color: white;
     
@@ -25,6 +25,10 @@ export const ContainerVamosComecar = styled.div`
     justify-content: space-evenly;
     background-image: url(${fundoDescricao});
     background-size: contain;
+
+    @media (max-width: 920px) {
+        width: 100%;
+    }
 
     .imgDoctor  {
             max-height: 100%;
@@ -35,8 +39,8 @@ export const ContainerVamosComecar = styled.div`
     @media (max-width: 920px){
         margin-top: 5rem;
         height: fit-content;
-        background-image: none;
-        
+        /* background-image: none; */
+       
         .imgDoctor  {
             display: none;
         }                 
@@ -55,7 +59,7 @@ export const ContainerVamosComecar = styled.div`
 
         @media (max-width: 920px){
             align-items: center;
-           
+            
             padding: 2rem;
             height: fit-content;
             h4{

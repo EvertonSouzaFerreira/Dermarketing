@@ -32,6 +32,10 @@ export const ContainerAnuncio = styled.div`
 
         .alinhamentoRight{
             text-align: right;
+
+            span{
+                color: white;
+            }
         }
 
         @media (max-width: 920px) {
@@ -84,12 +88,12 @@ export const ContainerAnuncio = styled.div`
             }
         
         .decription{
-            width: 100%;
+            min-width: 100%;
             height: 270px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            
+            background: #060606;
             padding-left: 8rem;
             
            
@@ -108,7 +112,7 @@ export const ContainerAnuncio = styled.div`
                 height: 91px;
                 align-items: center;
                 justify-content: flex-start;
-               
+                background: none;
                 padding: 0;
                 gap: .5rem;
                 h5{
