@@ -12,13 +12,13 @@ export const ContainerDermaVantagens = styled.div`
     max-width: 100vw;
     height: 100%;
     /* max-height: 100vh; */
-    gap: 2rem;
+    
     /* padding: 32px 40px; */
     background: #171717;
     padding-bottom: 3rem;
     @media (max-width: 920px) {
-            margin-top: 3rem;
-            padding-bottom: 2rem;
+            
+            padding-bottom: 3rem;
             
             }
 
@@ -39,12 +39,13 @@ export const ContainerDermaVantagens = styled.div`
               cursor: default;
               overflow: visible;
               padding-left: 1rem;
-              
+             
             }
        
         @media (max-width: 920px){
             max-width: 410px;
             margin-right: 3rem;
+            
             .caroussel{
               cursor: grab;
               overflow: hidden;
@@ -52,7 +53,7 @@ export const ContainerDermaVantagens = styled.div`
             }
 
             .inner{
-              padding-left: 1.5rem;
+              padding-left: .5rem;
               display: flex;
               flex-wrap: nowrap;
               flex-direction: row;
@@ -144,10 +145,14 @@ export const Card = styled.div`
   /* Box Defaut */
   border: 1px solid #E4B528;
   /* Sombra */
-  box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
+  
   border-radius: 12px;
-  background: #252525;
-  background: none;
+  background: #121212;
+  /* Sombra */
+  box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
+  :hover{
+        background: #272727;
+    }
   div{
     gap: .5rem;
   }

@@ -25,7 +25,7 @@ function Identidade() {
                 <h5>
                    <span>Impressione seu público-alvo com uma identidade visual irresistível! Construa uma marca memorável que conquiste a confiança e fidelidade dos clientes.</span> 
                 </h5>
-                <p> Uma identidade visual bem elaborada é fundamental para uma marca forte, memorável e profissional. Ela aumenta a percepção de valor, conquista a confiança e fidelidade dos clientes, impulsionando as vendas. Além disso, a identidade visual deve estar presente em todos os pontos de contato, proporcionando uma experiência consistente e coerente.</p>
+                <p> Uma identidade visual bem elaborada é fundamental para uma marca forte, memorável e profissional. Ela aumenta a percepção de valor, conquista a confiança e fidelidade dos clientes, impulsionando as vendas. </p>
 
                 <button>Quero minha identidade visual</button>
             </div>

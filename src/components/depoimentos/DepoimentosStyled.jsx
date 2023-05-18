@@ -113,7 +113,7 @@ export const ContainerDepoimentos = styled.div`
                 font-size: 16px;
                 line-height: 34px;
                 text-align: center;
-
+                margin-bottom: auto;
                 color: #FFFFFF;
             }
 

@@ -12,9 +12,9 @@ export const ContainerGraficos = styled.div`
     height: 100vh;
     background: #171717;
     @media (max-width: 920px){
-            padding: 1rem;
+            padding-top: 3rem;
             height: fit-content;
-            margin-top: 10rem;
+            margin-top: 2rem;
             gap: .5rem;
             /* background-color: red; */
             /* border: solid 5px red; */

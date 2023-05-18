@@ -172,7 +172,7 @@ export const Card = styled.div`
   height: 305px;
   cursor: pointer;
   border: 1px solid #E4B528;
-  background: #252525;
+  background: #121212;
 /* Sombra */
 
   filter: drop-shadow(8px 4px 21px rgba(0, 0, 0, 0.5));
@@ -244,7 +244,7 @@ export const Card = styled.div`
         }
     }
     :hover{
-        background: #272727;
+      background: #272727;
     }
 
     

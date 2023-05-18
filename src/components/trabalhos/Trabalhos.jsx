@@ -13,13 +13,12 @@ function Trabalhos() {
   return (
  
     <ContainerTrabalhos>
-      {/* <div className='fundoTitulo'>
-        <img src={fundoTitulo} alt="" />
-      <h4>O que podemos oferecer<br/>
-       <span>para você ou seu negócio?</span> </h4>
+      <div className='fundoTitulo'>
+          <h2>Conheça nossos serviços!</h2>
       </div>
-         */}
+        
         <ContainerCardsTrabalhos>
+            
           <div className='containerCardTrabalho'>
           <img src={trabalhoJadinMulher} alt="" />
           <h5>WEBSITE E POSICIONAMENTO ONLINE</h5>

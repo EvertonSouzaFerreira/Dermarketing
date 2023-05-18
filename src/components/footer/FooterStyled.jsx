@@ -54,7 +54,7 @@ export const ContainerFooter = styled.div `
         justify-content: space-between;
 
         h5{
-            font-family: 'Roboto';
+            font-family: 'Source Sans 3';
             font-style: normal;
             font-weight: 700;
             font-size: 18.0294px;
@@ -119,6 +119,11 @@ export const ContainerFooterMobile = styled.div`
                 align-items: center;
                 justify-content: center;
                 gap: 0.5rem;
+
+                img{
+                  width: 7px;
+                  height: 5px;
+                }
             }
         }
         

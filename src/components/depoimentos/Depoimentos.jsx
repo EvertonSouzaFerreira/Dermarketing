@@ -46,7 +46,7 @@ function Depoimentos() {
                     <p>"A princípio, recuei. Entretanto, tive que me adaptar ao mercado digital e, nisso, conheci o Lucas, um dos donos da Dermarketing. Foi incrível a experiência e posso dizer que o marketing me ajudou demais a conseguir novos pacientes!"</p>
                     <img src={stars} alt="" />
                     <div className='containerAvatar'>
-                        <img src={avatar2} alt="" />
+                        <img src={avatar3} alt="" />
                         <h5>Patrick Reis</h5>
                         <p>Cirurgião Dentista</p>
                     </div>
@@ -55,7 +55,7 @@ function Depoimentos() {
                     <p>"Sou suspeita para falar, mas creio que ter a Dermarketing no meu consultório tem me deixado muito grata. Uma equipe focada apenas na área estética é fundamental, pois é muito difícil encontrar profissionais capacitados."</p>
                     <img src={stars} alt="" />
                     <div className='containerAvatar'>
-                        <img src={avatar3} alt="" />
+                        <img src={avatar2} alt="" />
                         <h5>Beatriz Rossi</h5>
                         <p>Cirurgiã Plástica</p>
                     </div>

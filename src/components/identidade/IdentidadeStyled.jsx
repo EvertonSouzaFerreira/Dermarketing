@@ -39,23 +39,23 @@ export const ContainerIdentidade = styled.div`
             gap: 2rem;
             max-width: 540px;
             h5{
-                width: 510px;
-                height: 112px;
+                width: 514px;
+                height: 143px;
                 font-family: 'Source Sans 3';
                 color: #E4B528;
                 line-height: 135%;
                 font-weight: 700;
-                font-size: 24px;
+                font-size: 30px;
             }
 
             p{
-                width: 540.07px;
-                height: 120px;
+                width: 540px;
+                height: 144px;
 
                 font-family: 'Source Sans 3';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 16px;
+                font-size: 24px;
                 line-height: 150%;
             }
 

@@ -126,10 +126,10 @@ export const ContainerVantagens = styled.div`
             justify-content: center;
             height: 70%;
             /* width: 40%; */
-            width: 410px;
+            width: 510px;
             /* background-color: #CCA42D; */
             gap: 1rem;
-
+            
            
             
             @media (max-width: 920px){
@@ -168,10 +168,10 @@ export const ContainerVantagens = styled.div`
                 overflow: hidden;
                 justify-content: center;
                 gap: 1rem;
-                width: 350px;
+                width: 450px;
                 height: 65px;
                 background: #262626;
-                border-radius: 44.1969px;
+                border-radius: 44px;
                 color: #FFFFFF;
                 transform-origin: left;
                 box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
@@ -182,12 +182,13 @@ export const ContainerVantagens = styled.div`
                 @media (max-width: 920px){
                 width: 100%;
                 height: 41px;
-                justify-content: center;
-               
+                justify-content: flex-end;
+                align-items: flex-end;
                 gap: .5px;
-
+                    
                     p{
                         width: 200px; 
+                        
                     }
 
                 }
@@ -203,10 +204,16 @@ export const ContainerVantagens = styled.div`
                     }
                 
                     p{
-                        width: 181px;
-                        height: 21px;
-                        font-size: 14px;
+                        width: 301px;
+                        height: 31px;
+                        font-weight: 600;
+                        font-size: 24px;
                         line-height: 125%;
+                        @media (max-width: 920px){
+                            font-size: 14px;
+                            width: 201px;
+                            
+                            }
                         
                     }
                 

@@ -12,7 +12,7 @@ function Main() {
 
   const handleResize = () => {
     const width = window.innerWidth;
-    if (width <= 768) {
+    if (width <= 968) {
       setWidth(true)
     } else {
       setWidth(false)

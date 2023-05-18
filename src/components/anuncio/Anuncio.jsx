@@ -15,7 +15,7 @@ function Anuncio() {
         <div className='fundoTitulo'>
                 <img src={fundoTitulo} alt="" />
             <h5 className='alinhamentoRight'><span>Qual a importância do tráfego pago?</span><br/>
-                É muito importante também que seu site seja <br/>
+                É muito importante também que seu site seja 
                 encontrado através de anúncios feito no Google. </h5>            
         </div>
         <div className='containerDescriptionImgGoogle'>

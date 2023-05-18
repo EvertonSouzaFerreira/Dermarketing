@@ -9,23 +9,24 @@ export const ContainerTrabalhos = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
-    padding: 3rem;
+    gap: 4.5rem;
+    padding: 4rem;
     @media (max-width: 920px){
             height: fit-content;
-            margin-top: 6rem;
-            gap: 1rem;
+            margin-top: 3rem;
+            gap: 5rem;
             padding: 0;
             /* border: solid 3px red; */
         }
 
     .fundoTitulo{
         display: flex;
-        width: 100%;
+        width: 356px;
+        height: 21px;
         
     }
     
-    h4{
+    h2{
         text-align: center;
         font-family: 'Source Sans 3';
         font-style: normal;
