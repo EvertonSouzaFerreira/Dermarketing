@@ -144,7 +144,7 @@ export const Card = styled.div`
   height: 300px;
   cursor: pointer;
   /* Box Defaut */
-  background: #121212;
+  background: #272727;
   /* Sombra */
   box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.5);
   border-radius: 12px;

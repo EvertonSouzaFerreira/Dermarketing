@@ -53,7 +53,7 @@ function Header() {
             <li> <a href="#mentoria">Websites</a> </li>
             <li> <a href="#Derma">Tráfego</a> </li>
             <li> <a href="#divulgue">Branding</a> </li>
-            <button>Entrar em contato</button>
+            <button><a href="https://contate.me/dermarketing">Entrar em contato</a> </button>
             
         </ul>}
 

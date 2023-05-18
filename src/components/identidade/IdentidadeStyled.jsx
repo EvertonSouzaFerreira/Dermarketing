@@ -195,6 +195,10 @@ export const ContainerIdentidade = styled.div`
             :hover{
               background: #2469FF;
             }
-
+            a{
+              color: #DFDFDF;
+              
+              padding: .5rem 4rem;
+            }
         }
 `

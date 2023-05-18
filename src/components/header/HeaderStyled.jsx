@@ -62,6 +62,12 @@ export const ContainerHeader = styled.div`
               background: #2469FF;
             }
 
+            a{
+                color: #DFDFDF;  
+                
+                
+            }
+
     }
         li{
             font-family: 'Montserrat', sans-serif;

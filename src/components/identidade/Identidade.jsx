@@ -27,7 +27,7 @@ function Identidade() {
                 </h5>
                 <p> Uma identidade visual bem elaborada é fundamental para uma marca forte, memorável e profissional. Ela aumenta a percepção de valor, conquista a confiança e fidelidade dos clientes, impulsionando as vendas. </p>
 
-                <button>Quero minha identidade visual</button>
+                <button> <a href="https://contate.me/dermarketing">Quero minha identidade visual</a> </button>
             </div>
         </div>
     </ContainerIdentidade>

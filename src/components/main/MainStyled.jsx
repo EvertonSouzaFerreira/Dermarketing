@@ -161,7 +161,12 @@ export const ContainerMain = styled.div`
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
-            
+            a{
+                color: #F3F3F3;
+                
+                padding: 1rem 6rem;
+            }
+
            
             :hover{
               background: #2469FF;
@@ -192,7 +197,11 @@ export const ContainerMain = styled.div`
 
             color: #DFDFDF;
             cursor: pointer;
-
+            
+            a{
+               
+                padding: 0 ;
+            }
         
         }
         }

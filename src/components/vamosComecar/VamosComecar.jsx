@@ -23,7 +23,7 @@ function VamosComecar() {
                   cresça</span> o seu consultório <br/>
                   com a Dermarketing.</h4>
               <p>Vamos começar?</p>
-              <button>Entrar em contato</button>
+              <button> <a href="https://contate.me/dermarketing"> Entrar em contato</a></button>
           </div>
           <img className='imgDoctor' src={imgDoctor} alt="imagenDotor" />
       </div>

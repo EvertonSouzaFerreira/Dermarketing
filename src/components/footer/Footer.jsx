@@ -80,7 +80,7 @@ function Footer() {
         <div className='contato paginas'>
             <h5>Contato</h5>
             <ul>
-                <li><img src={iconTelefone} alt="" /> (67) 99228-6495</li>
+                <li><img src={iconTelefone} alt="" /> <a style={{cursor: 'pointer', color: '#DDDDDD'}} href="https://contate.me/dermarketing">(67) 99228-6495</a></li>
                 <li><img src={iconEmail} alt="" /> contato@dermarketing.com.br</li>
                 <li><img src={iconLocalizacao} alt="" /> Campo Grande - Mato Grosso do Sul.</li>
             </ul>
@@ -102,7 +102,7 @@ function Footer() {
         <div className='contato paginas'>
             <h5>Contato</h5>
             <ul>
-                <li><img src={!width? iconTelefone:iconTelefoneMobile} alt="" /> (67) 99228-6495</li>
+                <li><img src={!width? iconTelefone:iconTelefoneMobile} alt="" /> <a style={{cursor: 'pointer', color: '#DDDDDD'}} href="https://contate.me/dermarketing">(67) 99228-6495</a> </li>
                 <li><img src={!width? iconEmail: iconEmailMobile} alt="" /> contato@dermarketing.com.br</li>
                 <li><img src={!width? iconLocalizacao: iconLocalizacaoMobile} alt="" /> Campo Grande - Mato Grosso do Sul.</li>
             </ul>

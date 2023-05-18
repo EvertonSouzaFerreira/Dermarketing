@@ -73,7 +73,7 @@ function Destaque() {
             </motion.div>
         
         </div>
-        <button>Quero meu site profissional</button>
+        <button> <a href="https://contate.me/dermarketing">Quero meu site profissional</a> </button>
     </ContainerDestaques>
   )
 }

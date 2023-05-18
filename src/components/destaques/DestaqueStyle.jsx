@@ -48,6 +48,11 @@ export const ContainerDestaques = styled.div`
             :hover{
               background: #2469FF;
             }
+            a{
+              color: #DFDFDF;
+              
+              padding: .5rem 4.5rem;
+            }
 
             @media (max-width: 920px){
               width: 200px;
@@ -55,7 +60,9 @@ export const ContainerDestaques = styled.div`
               font-weight: 600;
               font-size: 12px;
               line-height: 18px;
-
+              a{
+               padding: 0 ;
+              }
               
             }
 

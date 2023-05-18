@@ -51,11 +51,19 @@ export const ContainerTrabalhos = styled.div`
             :hover{
               background: #2469FF;
             }
-
+            a{
+                padding: 1rem 7rem;
+                
+                color: #F3F3F3;
+            }
 
             @media (max-width: 920px){
                 width: 177px;
                 height: 30px;
+                a{
+               
+                    padding: 0 ;
+                }
                 }
         }
 

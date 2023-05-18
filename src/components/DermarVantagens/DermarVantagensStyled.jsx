@@ -12,7 +12,7 @@ export const ContainerDermaVantagens = styled.div`
     max-width: 100vw;
     height: 100%;
     /* max-height: 100vh; */
-    
+    gap: 3rem;
     /* padding: 32px 40px; */
     background: #171717;
     padding-bottom: 3rem;

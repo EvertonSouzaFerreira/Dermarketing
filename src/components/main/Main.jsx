@@ -38,7 +38,7 @@ function Main() {
             <p>Somos uma agência focada apenas em especialistas voltados para a área da estética,
             <b> oferecemos um trabalho de excelência atraindo mais clientes para você.</b>
             <span> Prezando por responsabilidade com a LGPD e as normas da CFM.</span></p>
-            <button>Quero mais pacientes</button>
+            <button> <a href="https://contate.me/dermarketing">Quero mais pacientes</a></button>
             </div>
         </div>
         {!width && <div className='img'>
