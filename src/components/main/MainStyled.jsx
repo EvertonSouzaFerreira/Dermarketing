@@ -20,9 +20,9 @@ export const ContainerMain = styled.div`
     @media (max-width: 920px){
             width: 100%;
             height: fit-content;
-            padding-top: 5rem;
+            padding-top: 7rem;
             display: flex;
-            
+            padding-bottom: 3rem;
             
             /* border: solid 5px yellow; */
         }

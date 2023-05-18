@@ -43,7 +43,7 @@ export const ContainerCards = styled.div`
       height: fit-content;
             justify-content: center;
             align-items: center;
-            
+            gap: 3rem;
             
 
             /* border: solid 3px red; */
