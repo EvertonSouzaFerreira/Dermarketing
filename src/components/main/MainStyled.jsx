@@ -88,7 +88,7 @@ export const ContainerMain = styled.div`
             width: 279px;
             height: 264px;
             font-size: 15px;
-            gap: 1.5rem;
+            gap: 2.5rem;
             align-items: center;
             
             .titulo{
