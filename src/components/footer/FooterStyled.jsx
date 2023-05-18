@@ -120,10 +120,7 @@ export const ContainerFooterMobile = styled.div`
                 justify-content: center;
                 gap: 0.5rem;
 
-                img{
-                  width: 7px;
-                  height: 5px;
-                }
+               
             }
         }
         
